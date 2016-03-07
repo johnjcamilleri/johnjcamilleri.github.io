@@ -1,3 +1,3 @@
 # johnjcamilleri.github.io
 
-Personal website
+Personal and academic websites
