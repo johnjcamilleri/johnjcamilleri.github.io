@@ -3,6 +3,8 @@ layout: default
 updated: 19th February 2016
 ---
 
+![Profile photo](/images/john-j-camilleri.jpg){: .frame}
+
 I'm a Ph.D. student at the department of
 [Computer Science and Engineering](http://www.chalmers.se/en/departments/cse/) at
 [Chalmers University of Technology](http://www.chalmers.se/en/) and the
