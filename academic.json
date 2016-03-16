@@ -1,0 +1,433 @@
+{
+  "publications": [
+    {
+      "key": "ranlp2009",
+      "type": "paper",
+      "bibtype": "conference",
+      "year": 2009,
+      "month": 9,
+      "title": "LEXIE — an Experiment in Lexical Information extraction",
+      "authors": [
+        "John J. Camilleri",
+        "Michael Rosner"
+      ],
+      "event": {
+        "name": "Adaptation of Language Resources and Technology to New Domains",
+        "type": "workshop",
+        "code": "RANLP 2009",
+        "location": "Borovets, Bulgaria"
+      },
+      "publication": {
+        "booktitle": "Proceedings of the Workshop on Adaptation of Language Resources and Technology to New Domains",
+        "pages": "19-26",
+        "publisher": "Association for Computational Linguistics"
+      },
+      "url": "http://www.aclweb.org/anthology/W09-4103"
+    },
+    {
+      "key": "lrec2010",
+      "type": "paper",
+      "bibtype": "conference",
+      "year": 2010,
+      "month": 4,
+      "title": "Verb Morphology of Hebrew and Maltese — Towards an Open Source Type Theoretical Resource Grammar in GF",
+      "authors": [
+        "Dana Dannélls",
+        "John J. Camilleri"
+      ],
+      "event": {
+        "name": "Language Resources (LRs) and Human Language Technologies (HLT) for Semitic Languages: Status, Updates, and Prospects",
+        "type": "workshop",
+        "code": "LREC 2010",
+        "location": "Malta"
+      },
+      "publication": {
+        "booktitle": "Proceedings of the Language Resources (LRs) and Human Language Technologies (HLT) for Semitic Languages: Status, Updates, and Prospects",
+        "pages": "57-61"
+      }
+    },
+    {
+      "key": "fyp2010",
+      "type": "thesis",
+      "bibtype": "mastersthesis",
+      "year": 2010,
+      "month": 5,
+      "title": "A Controlled Natural Language Interface for Electronic Contracts",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Msida, Malta",
+      "school": "University of Malta",
+      "note": "B.Sc. IT (Hons) Final Year Project"
+    },
+    {
+      "key": "cnl2010",
+      "type": "paper",
+      "bibtype": "conference",
+      "year": 2010,
+      "month": 9,
+      "title": "Playing Nomic Using a Controlled Natural Language",
+      "authors": [
+        "John J. Camilleri",
+        "Michael Rosner",
+        "Gordon Pace"
+      ],
+      "event": {
+        "name": "Second Workshop on Controlled Natural Languages",
+        "type": "workshop",
+        "code": "CNL 2010",
+        "location": "Marettimo Island, Sicily"
+      }
+    },
+    {
+      "key": "cnl2010proc",
+      "type": "paper",
+      "bibtype": "incollection",
+      "year": 2012,
+      "month": 6,
+      "title": "Controlled Natural Language in a Game for Legal Assistance",
+      "authors": [
+        "John J. Camilleri",
+        "Gordon J. Pace",
+        "Michael Rosner"
+      ],
+      "publication": {
+        "booktitle": "Controlled Natural Language",
+        "series": "Lecture Notes in Computer Science",
+        "volume": "7175",
+        "subseries": "Lecture Notes in Artificial Intelligence",
+        "editor": "Michael Rosner and Norbert E. Fuchs",
+        "publisher": "Springer Berlin / Heidelberg",
+        "address": "Berlin, Heidelberg"
+      }
+    },
+    {
+      "show": false,
+      "key": "wict2010",
+      "type": "paper",
+      "bibtype": "conference",
+      "year": 2010,
+      "month": 11,
+      "title": "Playing Nomic Using a Controlled Natural Language",
+      "authors": [
+        "John J. Camilleri",
+        "Michael Rosner",
+        "Gordon Pace"
+      ],
+      "event": {
+        "name": "Third Workshop in Information and Communication Technology",
+        "type": "workshop",
+        "code": "WICT 2010",
+        "location": "Malta"
+      }
+    },
+    {
+      "key": "jlap2013",
+      "type": "paper",
+      "bibtype": "article",
+      "year": 2013,
+      "month": 8,
+      "title": "A Framework for Conflict Analysis of Normative Texts Written in Controlled Natural Language",
+      "authors": [
+        "Krasimir Angelov",
+        "John J. Camilleri",
+        "Gerardo Schneider"
+      ],
+      "publication": {
+        "journal": "Journal of Logic and Algebraic Programming (JLAP)",
+        "volume": 82,
+        "pages": "216-240"
+      },
+      "note": "DOI: 10.1016/j.jlap.2013.03.002",
+      "url" : "http://dx.doi.org/10.1016/j.jlap.2013.03.002"
+    },
+    {
+      "key": "freerbmt2012",
+      "type": "paper",
+      "bibtype": "conference",
+      "year": 2012,
+      "month": 6,
+      "title": "An IDE for the Grammatical Framework",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "event": {
+        "name": "Third International Workshop on Free/Open-Source Rule-Based Machine Translation",
+        "type": "workshop",
+        "code": "FreeRBMT 2012",
+        "location": "Gothenburg, Sweden"
+      }
+    },
+    {
+      "key": "msc2013",
+      "type": "thesis",
+      "bibtype": "mastersthesis",
+      "year": 2013,
+      "month": 9,
+      "title": "A Computational Grammar and Lexicon for Maltese",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Gothenburg, Sweden",
+      "school": "Chalmers University of Technology",
+      "note": "M.Sc. Thesis"
+    },
+    {
+      "key": "cnl2014",
+      "type": "paper",
+      "bibtype": "incollection",
+      "year": 2014,
+      "month": 8,
+      "title": "A CNL for Contract-Oriented Diagrams",
+      "authors": [
+        "John J. Camilleri",
+        "Gabriele Paganelli",
+        "Gerardo Schneider"
+      ],
+      "publication": {
+        "booktitle": "Proceedings of the 4th International Workshop on Controlled Natural Language, CNL 2014",
+        "series": "Lecture Notes in Computer Science",
+        "volume": "8625",
+        "subseries": "Lecture Notes in Artificial Intelligence",
+        "editor": "Brian Davis and Kaarel Kaljurand and Tobias Kuhn",
+        "publisher": "Springer",
+        "address": "Berlin, Heidelberg"
+      }
+    },
+    {
+      "key": "licentiate2015",
+      "type": "thesis",
+      "bibtype": "phdthesis",
+      "year": 2015,
+      "month": 10,
+      "title": "Analysing normative contracts — On the semantic gap between natural and formal languages",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Gothenburg, Sweden",
+      "school": "Chalmers University of Technology and University of Gothenburg",
+      "note": "Licentiate Thesis"
+    }
+  ],
+  "slides": [
+    {
+      "key": "gfss2009",
+      "filename": "2009-08 GFSS.pdf",
+      "year": 2009,
+      "month": 8,
+      "title": "Features of the Maltese Language",
+      "description": "Introduction to Maltese in the context of GF resource grammars",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "event": "First GF Summer School",
+      "location": "Gothenburg, Sweden"
+    },
+    {
+      "key": "fyp2010",
+      "filename": "2010-06 FYP.pptx",
+      "year": 2010,
+      "month": 6,
+      "title": "A Controlled Natural Language Interface for Electronic Contracts",
+      "description": "Final Year Project presentation",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "school": "University of Malta",
+      "location": "Msida, Malta"
+    },
+    {
+      "key": "gfss2011",
+      "filename": "2011-08 GFSS.pdf",
+      "year": 2011,
+      "month": 8,
+      "title": "Kelmtejn fuq il-Malti",
+      "description": "A couple of words about Maltese",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "event": "Second GF Summer School",
+      "location": "Barcelona, Spain"
+    },
+    {
+      "key": "molto-eeu2012",
+      "filename": "2012-01 GFEP MOLTO-EEU.pdf",
+      "year": 2012,
+      "month": 1,
+      "title": "GF Eclipse Plugin",
+      "description": "Short introduction and demo of the GF plugin for Eclipse",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "event": "MOLTO-EEU Kickoff Meeting",
+      "location": "Gothenburg, Sweden"
+    },
+    {
+      "key": "anacon2012",
+      "filename": "2012-02 AnaCon CLT.pdf",
+      "year": 2012,
+      "month": 2,
+      "title": "AnaCon",
+      "description": "A framework combining controlled natural language and formal contract logic",
+      "authors": [
+        "John J. Camilleri",
+        "Gerardo Schneider",
+        "Krasimir Angelov"
+      ],
+      "event": "CLT Seminar",
+      "location": "Gothenburg, Sweden"
+    },
+    {
+      "key": "molto-4th2012",
+      "filename": "2012-03 GFEP Demo.pdf",
+      "year": 2012,
+      "month": 3,
+      "title": "GF Eclipse Plugin",
+      "description": "Short introduction and demo of the GF plugin for Eclipse",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "event": "MOLTO 4th Project Meeting",
+      "location": "Zurich, Switzerland"
+    },
+    {
+      "key": "freerbmt2012",
+      "filename": "2012-06 FreeRBMT.pdf",
+      "year": 2012,
+      "month": 6,
+      "title": "An IDE for the Grammatical Framework",
+      "description": "Presentation accompanying the FreeRBMT paper on the GF Eclipse Plugin",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "event": "Third International Workshop on Free/Open-Source Rule-Based Machine Translation (FreeRBMT 2012)",
+      "location": "Gothenburg, Sweden"
+    },
+    {
+      "key": "ghilm2013a",
+      "filename": "2013-06 GĦILM 1.pdf",
+      "year": 2013,
+      "month": 6,
+      "title": "A computational grammar for Maltese",
+      "description": "Talk at the 4th International Conference on Maltese Linguistics (GĦILM 2013)",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Lyon, France"
+    },
+    {
+      "key": "ghilm2013b",
+      "filename": "2013-06 GĦILM 2.pdf",
+      "year": 2013,
+      "month": 6,
+      "title": "An online database of root-and-pattern verbs",
+      "description": "Talk at the 4th International Conference on Maltese Linguistics (GĦILM 2013)",
+      "authors": [
+        "John J. Camilleri",
+        "Michael Spagnol"
+      ],
+      "location": "Lyon, France"
+    },
+    {
+      "key": "msc2013",
+      "filename": "2013-09 MSc.pdf",
+      "year": 2013,
+      "month": 9,
+      "title": "A computational grammar and lexicon for Maltese",
+      "description": "Master's thesis defence seminar",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Göteborg, Sweden"
+    },
+    {
+      "key": "nrccl2014",
+      "filename": "2014-05 NRCCL.pdf",
+      "year": 2014,
+      "month": 5,
+      "title": "Computational models for contracts: how to build them and what we can do with them",
+      "description": "Tuesday lunch seminar at the Norwegian Research Center for Computers and Law (NRCCL)",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Olso, Norway"
+    },
+    {
+      "key": "cnl2014",
+      "filename": "2014-08 CNL.pdf",
+      "year": 2014,
+      "month": 8,
+      "title": "A CNL for Contract-Oriented Diagrams",
+      "description": "Fourth Workshop on Controlled Natural Language (CNL 2014)",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Galway, Ireland"
+    },
+    {
+      "key": "lingwistika2015",
+      "filename": "2015-06 Lingwistika.pdf",
+      "year": 2015,
+      "month": 6,
+      "title": "Ġabra: an open, online collection of Maltese lexical resources",
+      "description": "Talk at the 5th International Conference on Maltese Linguistics (Lingwistika 2015)",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Turin, Italy"
+    }
+  ],
+  "posters": [
+    {
+      "key": "lrec2010",
+      "filename": "2010-05 LREC poster.pdf",
+      "year": 2010,
+      "month": 5,
+      "title": "Verb morphology of Hebrew and Maltese — Towards an open source type theoretical resource grammar in GF",
+      "description": "LREC 2010 poster",
+      "authors": [
+        "Dana Dannélls",
+        "John J. Camilleri"
+      ],
+      "location": "Malta"
+    },
+    {
+      "key": "fyp2010",
+      "filename": "2010-06 FYP Poster.pdf",
+      "year": 2010,
+      "month": 6,
+      "title": "A Controlled Natural Language Interface for Electronic Contracts",
+      "description": "Final Year Project poster",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "school": "University of Malta",
+      "location": "Msida, Malta"
+    },
+    {
+      "key": "eamt2012",
+      "filename": "2012-05 EAMT poster.pdf",
+      "year": 2012,
+      "month": 5,
+      "title": "The GF Eclipse Plugin",
+      "description": "EAMT 2012 product poster",
+      "authors": [
+        "John J. Camilleri",
+        "Krasimir Angelov"
+      ],
+      "location": "Trento, Italy"
+    },
+    {
+      "key": "clt2012",
+      "filename": "2012-10 CLT Workshop poster.pdf",
+      "year": 2012,
+      "month": 10,
+      "title": "A computational morphology for Maltese, and using it to build a full-form lexicon",
+      "description": "Annual CLT workshop poster",
+      "authors": [
+        "John J. Camilleri"
+      ],
+      "location": "Gullmarsstrand, Sweden"
+    }
+  ]
+}

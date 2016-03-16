@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html>
+  <!--
+                                           _
+       ,,;;;,,,,   _.---.._                \`-._
+     `';;;;;;;;;;;;;,      `'.           .--'-._';,
+        ,;;';;''/            `;_       `';;;;'    `'.
+                |  .            '-._   ,;;:'   /  '<~'.
+                |  ;        \       '.,;;'     |       \
+                 \  \       |                  ;._. ,-'`.
+              /`'-`;.`'._   /                  /   `-.\_/
+              ; .-._ .-'  .'                  |
+             / /    '\ .-'`.                _/
+         _.-' /       \ \   '-._            /
+        (_/_.'     __.) /       `;--.._/   (
+                  (_/__/          \   `,   \
+                                   \  | \   \
+                                    \ \  `\  |
+                                     \ \   \ \
+                                      \_\   \ \
+                                       )-`\  \_\
+                                  jgs  `==`   )-`\
+                                              `==`
+  -->
 
   {% include head.html %}
 
   <body>
 
     <header>
-      <img src="/images/name.png" alt="John J. Camilleri" id="name" />
+      <img src="/images/photo.jpg" alt="Profile photo" class="frame" />
+      <a href="/"><img src="/images/name.png" alt="John J. Camilleri" id="name" /></a>
     </header>
 
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      {{ content }}
     </div>
 
     <footer>

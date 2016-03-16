@@ -5,51 +5,46 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size: 16px;
-$base-font-weight: 400;
-$small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.5;
+// $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $base-font-size: 16px;
+// $base-font-weight: 400;
+// $small-font-size: $base-font-size * 0.875;
+// $base-line-height: 1.5;
 $spacing-unit: 30px;
-$text-color: #111;
-$background-color: #fdfdfd;
-$brand-color: #2a7ae2;
-$grey-color: #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark: darken($grey-color, 25%);
+// $text-color: #111;
+// $background-color: #fdfdfd;
+// $brand-color: #2a7ae2;
+// $grey-color: #828282;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark: darken($grey-color, 25%);
 
 // Width of the content area
 $content-width: 800px;
 $on-palm: 600px;
 $on-laptop: 800px;
+
 // Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
   }
 }
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-// @import
-//         "base",
-//         "layout",
-//         "syntax-highlighting"
-// ;
+@include media-query($on-palm) {
+  .page-content {
+    margin-right: $spacing-unit;
+    margin-left: $spacing-unit;
+  }
+}
 
 body {
   font: 16px/1.4 'Source Sans Pro', sans-serif;
   color: #444;
-  max-width: 600pt;
+  max-width: $content-width;
   margin: 0 auto 5em auto;
   text-shadow: 1px 1px 1px white;
   background: url("/images/background.jpg") repeat scroll 0 -350px #EEEEEE;
 }
+
 img.frame {
     display:block;
     margin: 2em auto 1em auto;
@@ -63,24 +58,21 @@ img#name {
     display:block;
     width:70%;
 }
-code {
-    background:#ddd;
-    padding:0.3em;
-    font-size:90%;
-}
+
 h2 {
     font-weight:normal;
-    color:#333;
+    color:#666;
 }
+
 .updated {
     color: #bbb;
     display: block;
     margin-bottom: 2em;
     font-style:normal;
     text-align:center;
-    font-size:90%;
     margin-top:-1em;
 }
+
 .bibtex {
     display: none;
     font-family: monospace;
@@ -88,6 +80,7 @@ h2 {
     margin: 0 1em 1em 1em;
     font-size:10pt;
 }
+
 ul {
     list-style: inside square;
     padding-left: 1em;
@@ -117,55 +110,18 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 code {
-  background: #ccc;
-  font-size: 0.9em;
-}
-div.main-wrapper {
-  width: 50%;
-  min-width: 300px;
-  /* think of the iPhones! */
-  max-width: 800px;
-  margin: 4em auto;
-  /*border: 1px dotted #333;*/
+    background:#ddd;
+    padding:0.3em;
+    font-size:90%;
 }
 
-@media all and (max-width: 480px) {
-  div.main-wrapper {
-    margin: 1em auto;
-  }
-}
-div.title-wrapper {
-  margin: 1em 0 0;
-  padding-top: 1em;
-  width: 100%;
-  text-align: center;
-}
-div.title-wrapper h2 {
-  border-top: 1px solid #999;
-}
-div.bio-wrapper {}
-div.bio-wrapper img {
-  float: left;
-  margin: 0 1em 0.5em 0;
-  background: white;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-}
-
-@media all and (max-width: 800px) {
-  div.bio-wrapper img {
-    width: 100px;
-    height: 132px;
-    margin: 0 0.5em 0 0;
-    padding: 0.4em;
-  }
-}
 footer {
   margin-top: 5em;
   padding-top: 1em;
   text-align: center;
-  border-top: 1px solid #999999;
+  border-top: 1px solid #aaa;
   color: #888;
   clear: both;
 }
