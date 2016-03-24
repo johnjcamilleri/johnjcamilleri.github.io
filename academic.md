@@ -54,13 +54,54 @@ I have been involved in the following courses as a teaching assistant:
 
 - Runa Gulliksson (Computer Science, HT2015–VT2016)
 - Mohammad Reza Haghshenas (Software Engineering, VT2016)
-- Sophie Chesney (Language Technology, VT2016)
+<!-- - Sophie Chesney (Language Technology, VT2016) -->
 
-[Master's thesis project proposals](https://masterthesis.cms.chalmers.se/supervisor/john-j-camilleri)
+Here are some [master's thesis project proposals](https://masterthesis.cms.chalmers.se/supervisor/john-j-camilleri)
+which are related to my research.
 
 ## Publications
 
-...
+<ul>
+{% for item in site.data.publications reversed %}
+  {% if item.show == false %}{% continue %}{% endif %}
+  <li>
+  <em>{{ item.title }}</em>,
+  {{ item.authors | join: ', ' }}.
+  {% if item.event %}
+    {{ item.event.name }} ({{ item.event.code }}).
+  {% else if item.publication %}
+    {% if item.publication.booktitle %}
+    in “{{ item.publication.booktitle }}”
+    {% endif %}
+    {% if item.publication.volume %}
+    Vol. {{ item.publication.volume }}
+    {% endif %}
+    {% if item.publication.editor %}
+    , {{ item.publication.editor }} (Eds.)
+    {% endif %}.
+  {% endif %}
+
+  {% if item.school %}
+    {{ item.school }}.
+  {% endif %}
+
+  {% if item.address %}
+    {{ item.address }}.
+  {% endif %}
+
+  {% if item.note %}
+    {{ item.note }}.
+  {% endif %}
+
+  {{ item.year }}.
+  [<a href="
+  {% if item.url %}{{ item.url }}
+  {% else %}http://academic.johnjcamilleri.com/papers/{{ item.key }}.pdf
+  {% endif %}">PDF</a>]
+
+  </li>
+{% endfor %}
+</ul>
 
 ## Presentations
 

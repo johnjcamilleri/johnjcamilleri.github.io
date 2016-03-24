@@ -1,0 +1,168 @@
+[
+  {
+    "key": "gfss2009",
+    "filename": "2009-08 GFSS.pdf",
+    "year": 2009,
+    "month": 8,
+    "title": "Features of the Maltese Language",
+    "description": "Introduction to Maltese in the context of GF resource grammars",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "event": "First GF Summer School",
+    "location": "Gothenburg, Sweden"
+  },
+  {
+    "key": "fyp2010",
+    "filename": "2010-06 FYP.pptx",
+    "year": 2010,
+    "month": 6,
+    "title": "A Controlled Natural Language Interface for Electronic Contracts",
+    "description": "Final Year Project presentation",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "school": "University of Malta",
+    "location": "Msida, Malta"
+  },
+  {
+    "key": "gfss2011",
+    "filename": "2011-08 GFSS.pdf",
+    "year": 2011,
+    "month": 8,
+    "title": "Kelmtejn fuq il-Malti",
+    "description": "A couple of words about Maltese",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "event": "Second GF Summer School",
+    "location": "Barcelona, Spain"
+  },
+  {
+    "key": "molto-eeu2012",
+    "filename": "2012-01 GFEP MOLTO-EEU.pdf",
+    "year": 2012,
+    "month": 1,
+    "title": "GF Eclipse Plugin",
+    "description": "Short introduction and demo of the GF plugin for Eclipse",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "event": "MOLTO-EEU Kickoff Meeting",
+    "location": "Gothenburg, Sweden"
+  },
+  {
+    "key": "anacon2012",
+    "filename": "2012-02 AnaCon CLT.pdf",
+    "year": 2012,
+    "month": 2,
+    "title": "AnaCon",
+    "description": "A framework combining controlled natural language and formal contract logic",
+    "authors": [
+      "John J. Camilleri",
+      "Gerardo Schneider",
+      "Krasimir Angelov"
+    ],
+    "event": "CLT Seminar",
+    "location": "Gothenburg, Sweden"
+  },
+  {
+    "key": "molto-4th2012",
+    "filename": "2012-03 GFEP Demo.pdf",
+    "year": 2012,
+    "month": 3,
+    "title": "GF Eclipse Plugin",
+    "description": "Short introduction and demo of the GF plugin for Eclipse",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "event": "MOLTO 4th Project Meeting",
+    "location": "Zurich, Switzerland"
+  },
+  {
+    "key": "freerbmt2012",
+    "filename": "2012-06 FreeRBMT.pdf",
+    "year": 2012,
+    "month": 6,
+    "title": "An IDE for the Grammatical Framework",
+    "description": "Presentation accompanying the FreeRBMT paper on the GF Eclipse Plugin",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "event": "Third International Workshop on Free/Open-Source Rule-Based Machine Translation (FreeRBMT 2012)",
+    "location": "Gothenburg, Sweden"
+  },
+  {
+    "key": "ghilm2013a",
+    "filename": "2013-06 GĦILM 1.pdf",
+    "year": 2013,
+    "month": 6,
+    "title": "A computational grammar for Maltese",
+    "description": "Talk at the 4th International Conference on Maltese Linguistics (GĦILM 2013)",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "location": "Lyon, France"
+  },
+  {
+    "key": "ghilm2013b",
+    "filename": "2013-06 GĦILM 2.pdf",
+    "year": 2013,
+    "month": 6,
+    "title": "An online database of root-and-pattern verbs",
+    "description": "Talk at the 4th International Conference on Maltese Linguistics (GĦILM 2013)",
+    "authors": [
+      "John J. Camilleri",
+      "Michael Spagnol"
+    ],
+    "location": "Lyon, France"
+  },
+  {
+    "key": "msc2013",
+    "filename": "2013-09 MSc.pdf",
+    "year": 2013,
+    "month": 9,
+    "title": "A computational grammar and lexicon for Maltese",
+    "description": "Master's thesis defence seminar",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "location": "Göteborg, Sweden"
+  },
+  {
+    "key": "nrccl2014",
+    "filename": "2014-05 NRCCL.pdf",
+    "year": 2014,
+    "month": 5,
+    "title": "Computational models for contracts: how to build them and what we can do with them",
+    "description": "Tuesday lunch seminar at the Norwegian Research Center for Computers and Law (NRCCL)",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "location": "Olso, Norway"
+  },
+  {
+    "key": "cnl2014",
+    "filename": "2014-08 CNL.pdf",
+    "year": 2014,
+    "month": 8,
+    "title": "A CNL for Contract-Oriented Diagrams",
+    "description": "Fourth Workshop on Controlled Natural Language (CNL 2014)",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "location": "Galway, Ireland"
+  },
+  {
+    "key": "lingwistika2015",
+    "filename": "2015-06 Lingwistika.pdf",
+    "year": 2015,
+    "month": 6,
+    "title": "Ġabra: an open, online collection of Maltese lexical resources",
+    "description": "Talk at the 5th International Conference on Maltese Linguistics (Lingwistika 2015)",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "location": "Turin, Italy"
+  }
+]

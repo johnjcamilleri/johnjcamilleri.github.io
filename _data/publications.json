@@ -1,0 +1,211 @@
+[
+  {
+    "key": "ranlp2009",
+    "type": "paper",
+    "bibtype": "conference",
+    "year": 2009,
+    "month": 9,
+    "title": "LEXIE — an Experiment in Lexical Information extraction",
+    "authors": [
+      "John J. Camilleri",
+      "Michael Rosner"
+    ],
+    "event": {
+      "name": "Adaptation of Language Resources and Technology to New Domains",
+      "type": "workshop",
+      "code": "RANLP 2009",
+      "address": "Borovets, Bulgaria"
+    },
+    "publication": {
+      "booktitle": "Proceedings of the Workshop on Adaptation of Language Resources and Technology to New Domains",
+      "pages": "19-26",
+      "publisher": "Association for Computational Linguistics"
+    },
+    "url": "http://www.aclweb.org/anthology/W09-4103"
+  },
+  {
+    "key": "lrec2010",
+    "type": "paper",
+    "bibtype": "conference",
+    "year": 2010,
+    "month": 4,
+    "title": "Verb Morphology of Hebrew and Maltese — Towards an Open Source Type Theoretical Resource Grammar in GF",
+    "authors": [
+      "Dana Dannélls",
+      "John J. Camilleri"
+    ],
+    "event": {
+      "name": "Language Resources (LRs) and Human Language Technologies (HLT) for Semitic Languages: Status, Updates, and Prospects",
+      "type": "workshop",
+      "code": "LREC 2010",
+      "address": "Malta"
+    },
+    "publication": {
+      "booktitle": "Proceedings of the Language Resources (LRs) and Human Language Technologies (HLT) for Semitic Languages: Status, Updates, and Prospects",
+      "pages": "57-61"
+    }
+  },
+  {
+    "key": "fyp2010",
+    "type": "thesis",
+    "bibtype": "mastersthesis",
+    "year": 2010,
+    "month": 5,
+    "title": "A Controlled Natural Language Interface for Electronic Contracts",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "address": "Msida, Malta",
+    "school": "University of Malta",
+    "note": "B.Sc. IT (Hons) Final Year Project"
+  },
+  {
+    "key": "cnl2010",
+    "type": "paper",
+    "bibtype": "conference",
+    "year": 2010,
+    "month": 9,
+    "title": "Playing Nomic Using a Controlled Natural Language",
+    "authors": [
+      "John J. Camilleri",
+      "Michael Rosner",
+      "Gordon Pace"
+    ],
+    "event": {
+      "name": "Second Workshop on Controlled Natural Languages",
+      "type": "workshop",
+      "code": "CNL 2010",
+      "address": "Marettimo Island, Sicily"
+    }
+  },
+  {
+    "key": "cnl2010proc",
+    "type": "paper",
+    "bibtype": "incollection",
+    "year": 2012,
+    "month": 6,
+    "title": "Controlled Natural Language in a Game for Legal Assistance",
+    "authors": [
+      "John J. Camilleri",
+      "Gordon J. Pace",
+      "Michael Rosner"
+    ],
+    "publication": {
+      "booktitle": "Controlled Natural Language",
+      "series": "Lecture Notes in Computer Science",
+      "volume": "7175",
+      "subseries": "Lecture Notes in Artificial Intelligence",
+      "editor": "Michael Rosner and Norbert E. Fuchs",
+      "publisher": "Springer Berlin / Heidelberg",
+      "address": "Berlin, Heidelberg"
+    }
+  },
+  {
+    "show": false,
+    "key": "wict2010",
+    "type": "paper",
+    "bibtype": "conference",
+    "year": 2010,
+    "month": 11,
+    "title": "Playing Nomic Using a Controlled Natural Language",
+    "authors": [
+      "John J. Camilleri",
+      "Michael Rosner",
+      "Gordon Pace"
+    ],
+    "event": {
+      "name": "Third Workshop in Information and Communication Technology",
+      "type": "workshop",
+      "code": "WICT 2010",
+      "address": "Malta"
+    }
+  },
+  {
+    "key": "jlap2013",
+    "type": "paper",
+    "bibtype": "article",
+    "year": 2013,
+    "month": 8,
+    "title": "A Framework for Conflict Analysis of Normative Texts Written in Controlled Natural Language",
+    "authors": [
+      "Krasimir Angelov",
+      "John J. Camilleri",
+      "Gerardo Schneider"
+    ],
+    "publication": {
+      "journal": "Journal of Logic and Algebraic Programming (JLAP)",
+      "volume": 82,
+      "pages": "216-240"
+    },
+    "note": "DOI: 10.1016/j.jlap.2013.03.002",
+    "url" : "http://dx.doi.org/10.1016/j.jlap.2013.03.002"
+  },
+  {
+    "key": "freerbmt2012",
+    "type": "paper",
+    "bibtype": "conference",
+    "year": 2012,
+    "month": 6,
+    "title": "An IDE for the Grammatical Framework",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "event": {
+      "name": "Third International Workshop on Free/Open-Source Rule-Based Machine Translation",
+      "type": "workshop",
+      "code": "FreeRBMT 2012",
+      "address": "Gothenburg, Sweden"
+    }
+  },
+  {
+    "key": "msc2013",
+    "type": "thesis",
+    "bibtype": "mastersthesis",
+    "year": 2013,
+    "month": 9,
+    "title": "A Computational Grammar and Lexicon for Maltese",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "address": "Gothenburg, Sweden",
+    "school": "Chalmers University of Technology",
+    "note": "M.Sc. Thesis"
+  },
+  {
+    "key": "cnl2014",
+    "type": "paper",
+    "bibtype": "incollection",
+    "year": 2014,
+    "month": 8,
+    "title": "A CNL for Contract-Oriented Diagrams",
+    "authors": [
+      "John J. Camilleri",
+      "Gabriele Paganelli",
+      "Gerardo Schneider"
+    ],
+    "publication": {
+      "booktitle": "Proceedings of the 4th International Workshop on Controlled Natural Language (CNL 2014)",
+      "series": "Lecture Notes in Computer Science",
+      "volume": "8625",
+      "subseries": "Lecture Notes in Artificial Intelligence",
+      "editor": "Brian Davis and Kaarel Kaljurand and Tobias Kuhn",
+      "publisher": "Springer",
+      "address": "Berlin, Heidelberg"
+    }
+  },
+  {
+    "key": "licentiate2015",
+    "type": "thesis",
+    "bibtype": "phdthesis",
+    "year": 2015,
+    "month": 10,
+    "title": "Analysing normative contracts — On the semantic gap between natural and formal languages",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "address": "Gothenburg, Sweden",
+    "school": "Chalmers University of Technology and University of Gothenburg",
+    "note": "Licentiate Thesis",
+    "url": "https://gup.ub.gu.se/publication/222958-analysing-normative-contracts"
+  }
+]
