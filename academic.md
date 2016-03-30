@@ -1,10 +1,9 @@
 ---
 layout: default
-updated: 16th March 2016
 ---
 
 {: .updated}
-Updated {{ page.updated }}
+Updated {{ site.time | date: "%d %B %Y" }}
 
 I'm a Ph.D. student at the department of
 [Computer Science and Engineering](http://www.chalmers.se/en/departments/cse/) at
@@ -31,24 +30,19 @@ or find me in Room 5446 of the EDIT building on Chalmers’ Johanneberg campus i
 
 I have been involved in the following courses as a teaching assistant:
 
-- Artificial Intelligence:
-  **[VT2016 LP4](http://chalmersgu-ai-course.github.io/index.html)**
-- Concurrent Programming:
-  [VT2014 LP3](http://www.cse.chalmers.se/edu/year/2014/course/TDA382_LP3/),
-  [VT2015 LP3](http://www.cse.chalmers.se/edu/year/2014/course/TDA382/),
-  [HT2015 LP1](http://www.cse.chalmers.se/edu/year/2015/course/TDA383_LP1/),
-  [VT2016 LP3](http://www.cse.chalmers.se/edu/year/2015/course/TDA383_LP3/)
-- Programming Language Technology:
-  [VT2014 LP3](http://www.cse.chalmers.se/edu/year/2014/course/DAT151/),
-  [VT2015 LP3](http://www.cse.chalmers.se/edu/year/2015/course/DAT151/),
-  [HT2015 LP2](http://www.cse.chalmers.se/edu/year/2015/course/DAT151-lp2/)
-- Advanced Functional Programming:
-  [VT2016 LP3](http://www.cse.chalmers.se/edu/year/2016/course/TDA342/)
-- Natural Language Processing:
-  HT2014 LP2,
-  [HT2015 LP2](http://gul.gu.se/public/courseId/70823/coursePath/59410/ecp/lang-en/publicPage.do)
-- Objektorienterad programvaruutveckling:
-  [HT2014 LP2](http://www.cse.chalmers.se/edu/year/2014/course/TDA550/)
+{% for item in site.data.teaching %}
+- {{ item.course
+    }}: {% for i in item.instances
+      %}{% if i.url
+        %}[{% if i.current %}**{{i.period}}**{% else %}{{i.period}}{% endif %}]({{ i.url }}){%
+          else
+        %}{{ i.period }}{%
+          endif
+        %}{%
+      unless forloop.last %}, {% endunless
+      %}{%
+    endfor %}{%
+  endfor %}
 
 ## Student supervision
 
@@ -105,7 +99,23 @@ which are related to my research.
 
 ## Presentations
 
-...
+<ul>
+{% for item in site.data.presentations reversed %}
+  {% if item.show == false %}{% continue %}{% endif %}
+  <li>
+  <em>{{ item.title }}</em>:
+  {{ item.description }}.
+
+  {% if item.event %}{{ item.event }}, {% endif %}
+  {% if item.school %}{{ item.school }}, {% endif %}
+  {{ item.location }},
+  {{ item.year }}.
+
+  [<a href="http://academic.johnjcamilleri.com/presentations/{{ item.filename }}">Slides</a>]
+  </li>
+{% endfor %}
+</ul>
+
 
 ## Researcher profiles
 
@@ -113,11 +123,6 @@ This page will always contain the most up-to-date information;
 these links are mostly for myself.
 
 {: .compact}
-- [ORCID](http://orcid.org/0000-0003-2565-7124)
-- [ResearcherID](http://www.researcherid.com/rid/M-7445-2013)
-- [Google Scholar](http://scholar.google.com/citations?user=9k-l79kAAAAJ)
-- [Mendeley](http://www.mendeley.com/profiles/john-j-camilleri/)
-- [ResearchGate](https://www.researchgate.net/profile/John_Camilleri)
-- [DBLP](http://dblp.uni-trier.de/pers/hd/c/Camilleri:John_J=.html)
-- [ACM DL](http://dl.acm.org/author_page.cfm?id=81546116756)
-- [GUP](http://gup.ub.gu.se/lists/publications/people/html/index.xsql?ids=188090)
+{% for item in site.data.profiles %}
+- [{{ item.name }}]({{ item.url }}){%
+endfor %}

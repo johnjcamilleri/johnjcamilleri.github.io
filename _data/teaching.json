@@ -1,0 +1,81 @@
+[
+  {
+    "course": "Artificial Intelligence",
+    "instances": [
+      {
+        "period": "VT2016 LP4",
+        "current": true,
+        "url": "http://chalmersgu-ai-course.github.io/"
+      }
+    ]
+  },
+  {
+    "course": "Concurrent Programming",
+    "instances": [
+      {
+        "period": "VT2014 LP3",
+        "url": "http://www.cse.chalmers.se/edu/year/2014/course/TDA382_LP3/"
+      },
+      {
+        "period": "VT2015 LP3",
+        "url": "http://www.cse.chalmers.se/edu/year/2014/course/TDA382/"
+      },
+      {
+        "period": "HT2015 LP1",
+        "url": "http://www.cse.chalmers.se/edu/year/2015/course/TDA383_LP1/"
+      },
+      {
+        "period": "VT2016 LP3",
+        "url": "http://www.cse.chalmers.se/edu/year/2015/course/TDA383_LP3/"
+      }
+    ]
+  },
+  {
+    "course": "Programming Language Technology",
+    "instances": [
+      {
+        "period": "VT2014 LP3",
+        "url": "http://www.cse.chalmers.se/edu/year/2014/course/DAT151/"
+      },
+      {
+        "period": "VT2015 LP3",
+        "url": "http://www.cse.chalmers.se/edu/year/2015/course/DAT151/"
+      },
+      {
+        "period": "HT2015 LP2",
+        "url": "http://www.cse.chalmers.se/edu/year/2015/course/DAT151-lp2/"
+      }
+    ]
+  },
+  {
+    "course": "Advanced Functional Programming",
+    "instances": [
+      {
+        "period": "VT2016 LP3",
+        "url": "http://www.cse.chalmers.se/edu/year/2016/course/TDA342/"
+      }
+    ]
+  },
+  {
+    "course": "Natural Language Processing",
+    "instances": [
+      {
+        "period": "HT2014 LP2",
+        "url": null
+      },
+      {
+        "period": "HT2015 LP2",
+        "url": "http://gul.gu.se/public/courseId/70823/coursePath/59410/ecp/lang-en/publicPage.do"
+      }
+    ]
+  },
+  {
+    "course": "Objektorienterad programvaruutveckling",
+    "instances": [
+      {
+        "period": "HT2014 LP2",
+        "url": "http://www.cse.chalmers.se/edu/year/2014/course/TDA550/"
+      }
+    ]
+  }
+]
