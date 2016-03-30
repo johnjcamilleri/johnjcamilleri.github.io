@@ -1,6 +1,7 @@
 [
   {
     "key": "gfss2009",
+    "show": false,
     "filename": "2009-08 GFSS.pdf",
     "year": 2009,
     "month": 8,
@@ -14,7 +15,7 @@
   },
   {
     "key": "fyp2010",
-    "filename": "2010-06 FYP.pptx",
+    "filename": "2010-06 FYP.pdf",
     "year": 2010,
     "month": 6,
     "title": "A Controlled Natural Language Interface for Electronic Contracts",
@@ -27,6 +28,7 @@
   },
   {
     "key": "gfss2011",
+    "show": false,
     "filename": "2011-08 GFSS.pdf",
     "year": 2011,
     "month": 8,
@@ -40,6 +42,7 @@
   },
   {
     "key": "molto-eeu2012",
+    "show": false,
     "filename": "2012-01 GFEP MOLTO-EEU.pdf",
     "year": 2012,
     "month": 1,
@@ -68,6 +71,7 @@
   },
   {
     "key": "molto-4th2012",
+    "show": false,
     "filename": "2012-03 GFEP Demo.pdf",
     "year": 2012,
     "month": 3,
@@ -164,5 +168,17 @@
       "John J. Camilleri"
     ],
     "location": "Turin, Italy"
+  },
+  {
+    "key": "licentiate2015",
+    "filename": "2015-10 Licentiate Seminar.pdf",
+    "year": 2015,
+    "month": 10,
+    "title": "Analysing normative contracts — On the semantic gap between natural and formal languages",
+    "description": "Licentiate seminar presentation",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "location": "Göteborg, Sweden"
   }
 ]

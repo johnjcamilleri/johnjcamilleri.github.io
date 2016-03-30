@@ -16,8 +16,8 @@ I also do some computational linguistic work for the Maltese language,
 where I help build and maintain a [digital lexicon for Maltese](http://mlrs.research.um.edu.mt/resources/gabra/) called _Ġabra_.
 
 You can contact me at
-<code>john.j.camilleri<img src="/images/ghost.png" style="height:18px; vertical-align:sub; -webkit-filter:grayscale(100%); filter:grayscale(100%);" alt="@"/>cse.gu.se</code>,
-or find me in Room 5446 of the EDIT building on Chalmers’ Johanneberg campus in Gothenburg, Sweden.
+<code>john.j.camilleri<img src="/images/ghost.png" style="height:18px; vertical-align:sub; -webkit-filter:grayscale(100%); filter:grayscale(100%);" alt="@"/>cse.gu.se</code>
+or find me in room 5446 of the EDIT building on Chalmers’ Johanneberg campus in Gothenburg, Sweden.
 
 ## Brief background
 
@@ -55,7 +55,7 @@ which are related to my research.
 
 ## Publications
 
-<ul>
+<ul class="publications">
 {% for item in site.data.publications reversed %}
   {% if item.show == false %}{% continue %}{% endif %}
   <li>
@@ -99,7 +99,7 @@ which are related to my research.
 
 ## Presentations
 
-<ul>
+<ul class="presentations">
 {% for item in site.data.presentations reversed %}
   {% if item.show == false %}{% continue %}{% endif %}
   <li>
@@ -122,7 +122,7 @@ which are related to my research.
 This page will always contain the most up-to-date information;
 these links are mostly for myself.
 
-{: .compact}
+{: .inline}
 {% for item in site.data.profiles %}
 - [{{ item.name }}]({{ item.url }}){%
 endfor %}

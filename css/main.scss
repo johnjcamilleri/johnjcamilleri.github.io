@@ -5,31 +5,25 @@
 @charset "utf-8";
 
 // Our variables
-// $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-// $base-font-size: 16px;
-// $base-font-weight: 400;
-// $small-font-size: $base-font-size * 0.875;
-// $base-line-height: 1.5;
+$base-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$base-font-size: 16px;
+$base-line-height: 1.5;
 $spacing-unit: 30px;
-// $text-color: #111;
-// $background-color: #fdfdfd;
-// $brand-color: #2a7ae2;
-// $grey-color: #828282;
-// $grey-color-light: lighten($grey-color, 40%);
-// $grey-color-dark: darken($grey-color, 25%);
+$text-color: #444;
+
+$weight-normal: 400;
+$weight-bold: 600;
 
 // Width of the content area
 $content-width: 800px;
-$on-palm: 600px;
-$on-laptop: 800px;
 
 // Use media queries like this:
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
+@mixin media-query($width) {
+  @media screen and (max-width: $width) {
     @content;
   }
 }
-@include media-query($on-palm) {
+@include media-query($content-width) {
   .page-content {
     margin-right: $spacing-unit;
     margin-left: $spacing-unit;
@@ -37,8 +31,9 @@ $on-laptop: 800px;
 }
 
 body {
-  font: 16px/1.4 'Source Sans Pro', sans-serif;
-  color: #444;
+  font: $base-font-size $base-font-family;
+  line-height: $base-line-height;
+  color: $text-color;
   max-width: $content-width;
   margin: 0 auto 5em auto;
   text-shadow: 1px 1px 1px white;
@@ -46,61 +41,56 @@ body {
 }
 
 img.frame {
-    display:block;
-    margin: 2em auto 1em auto;
-    background: white;
-    padding: 0.4em;
-    border: 1px solid #ccc;
-    height:300px;
+  display:block;
+  margin: 2em auto 1em auto;
+  background: white;
+  padding: 0.4em;
+  border: 1px solid #ccc;
+  height:300px;
 }
 img#name {
-    margin:1em auto 1em auto;
-    display:block;
-    width:70%;
+  margin:1em auto 1em auto;
+  display:block;
+  width:70%;
 }
 
 h2 {
-    font-weight:normal;
-    color:#666;
+  font-weight:normal;
+  color:#555;
+}
+
+strong {
+  font-weight: $weight-bold;
 }
 
 .updated {
-    color: #bbb;
-    display: block;
-    margin-bottom: 2em;
-    font-style:normal;
-    text-align:center;
-    margin-top:-1em;
-}
-
-.bibtex {
-    display: none;
-    font-family: monospace;
-    white-space: pre;
-    margin: 0 1em 1em 1em;
-    font-size:10pt;
+  color: #aaa;
+  display: block;
+  margin-bottom: $spacing-unit;
+  font-style:normal;
+  text-align:center;
 }
 
 ul {
-    list-style: inside square;
-    padding-left: 1em;
+  list-style: outside square;
+  padding-left: $spacing-unit;
 }
 li {
-    margin-bottom: 1em;
+  margin-bottom: $spacing-unit/2;
 }
-ul.compact { }
-ul.compact li {
-    display:inline-block;
-    margin: 0 1em 0 0;
+ul.inline { }
+ul.inline li {
+  display:inline-block;
+  margin: 0 $spacing-unit 0 0;
 }
 
 .publications em,
 .presentations em {
-    font-weight:bold;
-    font-style:normal;
+  font-weight:$weight-bold;
+  font-style:normal;
 }
 .strike, .done {
-    text-decoration:line-through;
+  text-decoration:line-through;
 }
 
 a {
@@ -112,14 +102,14 @@ a:hover {
 }
 
 code {
-    background:#ddd;
-    padding:0.3em;
-    font-size:90%;
+  background:transparentize(#000, 0.92);
+  padding:0.3em;
+  font-size:90%;
 }
 
 footer {
-  margin-top: 5em;
-  padding-top: 1em;
+  margin-top: 3*$spacing-unit;
+  padding-top: $spacing-unit;
   text-align: center;
   border-top: 1px solid #aaa;
   color: #888;
