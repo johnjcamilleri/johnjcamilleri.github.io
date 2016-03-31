@@ -37,7 +37,7 @@ body {
   max-width: $content-width;
   margin: 0 auto 5em auto;
   text-shadow: 1px 1px 1px white;
-  background: url("/images/background.jpg") repeat scroll 0 -350px #EEEEEE;
+  background: url("{{ site.baseurl }}/images/background.jpg") repeat scroll 0 -350px #EEEEEE;
 }
 
 img.frame {
