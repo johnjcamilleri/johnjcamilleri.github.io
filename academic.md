@@ -122,7 +122,7 @@ which are related to my research.
 This page will always contain the most up-to-date information;
 these links are mostly for myself.
 
-{: .inline}
+{: .compact}
 {% for item in site.data.profiles %}
 - [{{ item.name }}]({{ item.url }}){%
 endfor %}

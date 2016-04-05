@@ -1,23 +1,15 @@
 [
   {
-    "name": "DBLP",
-    "url": "http://dblp.uni-trier.de/pers/hd/c/Camilleri:John_J=.html"
-  },
-  {
-    "name": "ACM DL",
-    "url": "http://dl.acm.org/author_page.cfm?id=81546116756"
-  },
-  {
-    "name": "GUP",
+    "name": "University of Gothenburg Publications (GUP)",
     "url": "http://gup.ub.gu.se/lists/publications/people/html/index.xsql?ids=188090"
   },
   {
-    "name": "ORCID",
-    "url": "http://orcid.org/0000-0003-2565-7124"
+    "name": "Chalmers personnel page (Swedish)",
+    "url": "http://www.chalmers.se/sv/personal/Sidor/johncam.aspx"
   },
   {
-    "name": "ResearcherID",
-    "url": "http://www.researcherid.com/rid/M-7445-2013"
+    "name": "Chalmers personnel page (English)",
+    "url": "http://www.chalmers.se/en/staff/Pages/john-j-camilleri.aspx"
   },
   {
     "name": "Google Scholar",
@@ -28,7 +20,23 @@
     "url": "https://www.researchgate.net/profile/John_Camilleri"
   },
   {
+    "name": "DBLP",
+    "url": "http://dblp.uni-trier.de/pers/hd/c/Camilleri:John_J=.html"
+  },
+  {
+    "name": "ACM Digital Library",
+    "url": "http://dl.acm.org/author_page.cfm?id=81546116756"
+  },
+  {
+    "name": "ORCID",
+    "url": "http://orcid.org/0000-0003-2565-7124"
+  },
+  {
+    "name": "ResearcherID",
+    "url": "http://www.researcherid.com/rid/M-7445-2013"
+  },
+  {
     "name": "Mendeley",
     "url": "http://www.mendeley.com/profiles/john-j-camilleri/"
-  }
+  },
 ]

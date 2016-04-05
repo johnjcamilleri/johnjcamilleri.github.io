@@ -74,14 +74,23 @@ strong {
 ul {
   list-style: outside square;
   padding-left: $spacing-unit;
+
+  li {
+    margin-bottom: $spacing-unit/2;
+  }
 }
-li {
-  margin-bottom: $spacing-unit/2;
+
+ul.compact {
+  li {
+    margin-bottom: 0;
+  }
 }
-ul.inline { }
-ul.inline li {
-  display:inline-block;
-  margin: 0 $spacing-unit 0 0;
+
+ul.inline {
+  li {
+    display:inline-block;
+    margin: 0 $spacing-unit 0 0;
+  }
 }
 
 .publications em,
