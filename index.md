@@ -10,7 +10,7 @@ Apart from being a researcher I'm also a seasoned programmer with a lot of exper
 I consider myself an engineer who values good design and who is interested in the details of how things work in practice.
 
 When not at my computer, I like to train for and run obstacle races.
-I have also been known to write pretty well, give a mean speech, and geek over speciality coffee.
+I have also been known to write pretty well, give a good speech, and geek over speciality coffee.
 
 For more about my research, see my [academic homepage](http://www.cse.chalmers.se/~cajohn).
 <!-- For more about my research, see my [academic page](/academic). -->
