@@ -48,7 +48,7 @@ I have been involved in the following courses as a teaching assistant:
 
 - Runa Gulliksson (Computer Science, HT2015–VT2016)
 - Mohammad Reza Haghshenas (Software Engineering, VT2016)
-<!-- - Sophie Chesney (Language Technology, VT2016) -->
+- Sophie Chesney (Language Technology, VT2016)
 
 Here are some [master's thesis project proposals](https://masterthesis.cms.chalmers.se/supervisor/john-j-camilleri)
 which are related to my research.

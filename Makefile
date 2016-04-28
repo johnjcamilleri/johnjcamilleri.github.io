@@ -1,4 +1,4 @@
-.PHONY: build build-chalmers
+.PHONY: build chalmers jjc push
 
 sources = *.md css/* _data/* _includes/* _layouts/* *.yml
 
@@ -11,3 +11,5 @@ chalmers: $(sources)
 
 jjc: build
 	scp -r _site/*.html _site/images _site/css john@erika.johnjcamilleri.com:/var/www/johnjcamilleri.com/
+
+push: chalmers jjc
