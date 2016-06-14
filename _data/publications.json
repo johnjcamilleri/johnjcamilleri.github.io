@@ -17,7 +17,7 @@
       "address": "Borovets, Bulgaria"
     },
     "publication": {
-      "booktitle": "Proceedings of the Workshop on Adaptation of Language Resources and Technology to New Domains",
+      "booktitle": "Proceedings of the Workshop on Adaptation of Language Resources and Technology to New Domains (RANLP 2009)",
       "pages": "19-26",
       "publisher": "Association for Computational Linguistics"
     },
@@ -207,5 +207,26 @@
     "school": "Chalmers University of Technology and University of Gothenburg",
     "note": "Licentiate Thesis",
     "url": "https://gup.ub.gu.se/publication/222958-analysing-normative-contracts"
+  },
+  {
+    //"key": "nldb2016",
+    "type": "paper",
+    "bibtype": "incollection",
+    "year": 2016,
+    "month": 6,
+    "title": "Extracting Formal Models from Normative Texts",
+    "authors": [
+      "John J. Camilleri",
+      "Normunds Grūzītis",
+      "Gerardo Schneider"
+    ],
+    "publication": {
+      "booktitle": "21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016)",
+      "series": "Lecture Notes in Computer Science",
+      "volume": "9612",
+      "subseries": "Lecture Notes in Artificial Intelligence",
+      "publisher": "Springer",
+      "address": "Berlin, Heidelberg"
+    }
   }
 ]

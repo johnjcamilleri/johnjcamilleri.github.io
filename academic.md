@@ -28,7 +28,7 @@ or find me in room 5446 of the EDIT building on Chalmers’ Johanneberg campus i
 
 ## Teaching
 
-I have been involved in the following courses as a teaching assistant:
+I have been/am/will be involved in the following courses as a teaching assistant:
 
 {% for item in site.data.teaching %}
 - {{ item.course
@@ -53,6 +53,11 @@ I have been involved in the following courses as a teaching assistant:
 Here are some [master's thesis project proposals](https://masterthesis.cms.chalmers.se/supervisor/john-j-camilleri)
 which are related to my research.
 
+## Other
+
+- Member of sub-committee on ICT of the [National Council for the Maltese Language](http://www.kunsilltalmalti.gov.mt/eng), 2013 – present.
+- Member of EACL 2017 student board
+
 ## Publications
 
 <ul class="publications">
@@ -61,18 +66,21 @@ which are related to my research.
   <li>
   <em>{{ item.title }}</em>,
   {{ item.authors | join: ', ' }}.
-  {% if item.event %}
-    {{ item.event.name }} ({{ item.event.code }}).
-  {% else if item.publication %}
+  {% if item.publication %}
     {% if item.publication.booktitle %}
-    in “{{ item.publication.booktitle }}”
+    In {{ item.publication.booktitle }}.
     {% endif %}
     {% if item.publication.volume %}
-    Vol. {{ item.publication.volume }}
+    Vol. {{ item.publication.volume }},
     {% endif %}
-    {% if item.publication.editor %}
-    , {{ item.publication.editor }} (Eds.)
-    {% endif %}.
+    {% if item.publication.series %}
+    {{ item.publication.series }}.
+    {% endif %}
+    {% if item.publication.journal %}
+    {{ item.publication.journal }}.
+    {% endif %}
+  {% elsif item.event %}
+    {{ item.event.name }} ({{ item.event.code }}).
   {% endif %}
 
   {% if item.school %}
@@ -87,11 +95,11 @@ which are related to my research.
     {{ item.note }}.
   {% endif %}
 
-  {{ item.year }}.
-  [<a href="
-  {% if item.url %}{{ item.url }}
-  {% else %}http://academic.johnjcamilleri.com/papers/{{ item.key }}.pdf
-  {% endif %}">PDF</a>]
+  ({{ item.year }}).
+
+  {% if item.url %}[<a href="{{ item.url }}">PDF</a>]
+  {% elsif item.key %}[<a href="http://academic.johnjcamilleri.com/papers/{{ item.key }}.pdf">PDF</a>]
+  {% endif %}
 
   </li>
 {% endfor %}
