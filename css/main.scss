@@ -56,7 +56,11 @@ img#name {
 
 h2 {
   font-weight:normal;
-  color: lighten($text-color, 10%);;
+  color: lighten($text-color, 10%);
+}
+h3 {
+  font-weight:normal;
+  color: lighten($text-color, 30%);
 }
 
 strong {

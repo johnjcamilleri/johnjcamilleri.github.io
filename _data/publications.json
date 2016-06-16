@@ -121,6 +121,23 @@
     }
   },
   {
+    "key": "freerbmt2012",
+    "type": "paper",
+    "bibtype": "conference",
+    "year": 2012,
+    "month": 6,
+    "title": "An IDE for the Grammatical Framework",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "event": {
+      "name": "Third International Workshop on Free/Open-Source Rule-Based Machine Translation",
+      "type": "workshop",
+      "code": "FreeRBMT 2012",
+      "address": "Gothenburg, Sweden"
+    }
+  },
+  {
     "key": "jlap2013",
     "type": "paper",
     "bibtype": "article",
@@ -139,23 +156,6 @@
     },
     "note": "DOI: 10.1016/j.jlap.2013.03.002",
     "url" : "http://dx.doi.org/10.1016/j.jlap.2013.03.002"
-  },
-  {
-    "key": "freerbmt2012",
-    "type": "paper",
-    "bibtype": "conference",
-    "year": 2012,
-    "month": 6,
-    "title": "An IDE for the Grammatical Framework",
-    "authors": [
-      "John J. Camilleri"
-    ],
-    "event": {
-      "name": "Third International Workshop on Free/Open-Source Rule-Based Machine Translation",
-      "type": "workshop",
-      "code": "FreeRBMT 2012",
-      "address": "Gothenburg, Sweden"
-    }
   },
   {
     "key": "msc2013",
