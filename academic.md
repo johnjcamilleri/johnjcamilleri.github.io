@@ -127,7 +127,11 @@ which are related to my research.
   {{ item.location }},
   {{ item.year }}.
 
+  {% if item.url %}
+  [<a href="{{ item.url }}">Slides</a>]
+  {% elsif item.filename %}
   [<a href="http://academic.johnjcamilleri.com/presentations/{{ item.filename }}">Slides</a>]
+  {% endif %}
   </li>
 {% endfor %}
 </ul>

@@ -180,5 +180,19 @@
       "John J. Camilleri"
     ],
     "location": "Göteborg, Sweden"
+  },
+  {
+    "key": "nldb2016",
+    "url": "https://docs.google.com/presentation/d/15eG5NU9NKyJq3OZ0cVQ1OqKeFPwY8vSmj1a58tqHUtI/edit?usp=sharing",
+    "year": 2016,
+    "month": 6,
+    "title": "Extracting Formal Models from Normative Texts",
+    "description": "Talk at the 21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016)",
+    "authors": [
+      "John J. Camilleri",
+      "Normunds Grūzītis",
+      "Gerardo Schneider"
+    ],
+    "location": "Manchester, UK"
   }
 ]
