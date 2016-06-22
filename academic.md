@@ -115,9 +115,16 @@ which are related to my research.
 
 ## Presentations
 
-<ul class="presentations">
+{% assign year = 0 %}
 {% for item in site.data.presentations reversed %}
-  {% if item.show == false %}{% continue %}{% endif %}
+{% if item.show == false %}{% continue %}{% endif %}
+{% if item.year != year %}
+  {% if year != 0 %}</ul>{% endif %}
+  <h3>{{ item.year }}</h3>
+  <ul class="presentations">
+{% assign year = item.year %}
+{% endif %}
+
   <li>
   <em>{{ item.title }}</em>:
   {{ item.description }}.
