@@ -210,7 +210,7 @@
     "url": "https://gup.ub.gu.se/publication/222958-analysing-normative-contracts"
   },
   {
-    //"key": "nldb2016",
+    "key": "nldb2016",
     "type": "paper",
     "bibtype": "incollection",
     "year": 2016,
@@ -224,10 +224,14 @@
     "publication": {
       "booktitle": "21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016)",
       "series": "Lecture Notes in Computer Science",
+      "editors": "E. Matais et al.",
+      "doi" : "10.1007/978-3-319-41754-7_40",
       "volume": "9612",
+      "pages": "403–408",
       "subseries": "Lecture Notes in Artificial Intelligence",
       "publisher": "Springer",
       "address": "Berlin, Heidelberg"
-    }
+    },
+    "url": "http://link.springer.com/chapter/10.1007%2F978-3-319-41754-7_40"
   }
 ]
