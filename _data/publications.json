@@ -233,5 +233,20 @@
       "address": "Berlin, Heidelberg"
     },
     "url": "http://link.springer.com/chapter/10.1007%2F978-3-319-41754-7_40"
+  },
+  {
+    "type": "paper",
+    "bibtype": "incollection",
+    "year": 2016,
+    "month": 10,
+    "title": "A Domain-Specific Language for Normative Texts with Timing Constraints",
+    "authors": [
+      "Runa Gulliksson",
+      "John J. Camilleri"
+    ],
+    "publication": {
+      "booktitle": "23rd International Symposium on Temporal Representation and Reasoning (TIME 2016)",
+    },
+    "note": "Forthcoming"
   }
 ]
