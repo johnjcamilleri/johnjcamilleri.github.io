@@ -64,7 +64,11 @@
       },
       {
         "period": "HT2015 LP2",
-        "url": "http://gul.gu.se/public/courseId/70823/coursePath/59410/ecp/lang-en/publicPage.do"
+        "url": null
+      },
+      {
+        "period": "HT2016 LP2",
+        "url": "http://gul.gu.se/public/courseId/75617/coursePath/38097/38351/59410/ecp/lang-sv/publicPage.do"
       }
     ]
   },
