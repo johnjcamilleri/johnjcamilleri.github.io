@@ -153,9 +153,9 @@
     "publication": {
       "journal": "Journal of Logic and Algebraic Programming (JLAP)",
       "volume": 82,
-      "pages": "216-240"
+      "pages": "216-240",
+      "doi": "10.1016/j.jlap.2013.03.002",
     },
-    "note": "DOI: 10.1016/j.jlap.2013.03.002",
     "url" : "http://dx.doi.org/10.1016/j.jlap.2013.03.002"
   },
   {
@@ -232,7 +232,31 @@
       "publisher": "Springer",
       "address": "Berlin, Heidelberg"
     },
-    "url": "http://link.springer.com/chapter/10.1007%2F978-3-319-41754-7_40"
+    "url": "http://link.springer.com/chapter/10.1007%2F978-3-319-41754-7_40",
+    "url_label": "Link"
+  },
+  {
+    "type": "paper",
+    "bibtype": "article",
+    "title": "Digitizing the grammar and vocabulary of Maltese",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "year": 2016,
+    "month": 9,
+    "publication": {
+      "booktitle": "Shifts and Patterns in Maltese",
+      "series": "Studia Typologica",
+      "volume": "19",
+      "editors": [
+        "Gilbert Puech",
+        "Benjamin Saade"
+      ],
+      "isbn": "978-3-11-049637-6",
+      "publisher": "De Gruyter Mouton"
+    },
+    "url": "https://www.degruyter.com/view/product/476463",
+    "url_label": "Link"
   },
   {
     "type": "paper",

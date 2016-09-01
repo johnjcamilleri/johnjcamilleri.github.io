@@ -99,13 +99,21 @@ which are related to my research.
     {{ item.address }}.
   {% endif %}
 
+  {% if item.publication.doi %}
+    DOI: {{ item.publication.doi }}.
+  {% endif %}
+
+  {% if item.publication.isbn %}
+    IBSN: {{ item.publication.isbn }}.
+  {% endif %}
+
   {% if item.note %}
     {{ item.note }}.
   {% endif %}
 
-  ({{ item.year }}).
+  <!-- ({{ item.year }}). -->
 
-  {% if item.url %}[<a href="{{ item.url }}">PDF</a>]
+  {% if item.url %}[<a href="{{ item.url }}">{% if item.url_label %}{{item.url_label}}{% else %}PDF{% endif %}</a>]
   {% elsif item.key %}[<a href="http://academic.johnjcamilleri.com/papers/{{ item.key }}.pdf">PDF</a>]
   {% endif %}
 
