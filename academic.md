@@ -44,11 +44,11 @@ I have been/am/will be involved in the following courses as a teaching assistant
     endfor %}{%
   endfor %}
 
-## Student supervision
+## Student project supervision
 
-- Runa Gulliksson (Computer Science, HT2015–VT2016)
-- Mohammad Reza Haghshenas (Software Engineering, VT2016)
-- Sophie Chesney (Language Technology, VT2016)
+- Sophie Chesney (Language Technology, 2016)
+- [Runa Gulliksson](http://publications.lib.chalmers.se/records/fulltext/243893/243893.pdf) (Computer Science, 2016)
+- Mohammad Reza Haghshenas (Software Engineering, 2016)
 
 Here are some [master's thesis project proposals](https://masterthesis.cms.chalmers.se/supervisor/john-j-camilleri)
 which are related to my research.
