@@ -104,7 +104,7 @@ which are related to my research.
   {% endif %}
 
   {% if item.publication.isbn %}
-    IBSN: {{ item.publication.isbn }}.
+    ISBN: {{ item.publication.isbn }}.
   {% endif %}
 
   {% if item.note %}
