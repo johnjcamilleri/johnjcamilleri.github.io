@@ -272,8 +272,16 @@
     ],
     "publication": {
       "booktitle": "23rd International Symposium on Temporal Representation and Reasoning (TIME 2016)",
+      "doi" : "10.1109/TIME.2016.14",
+      "pages": "60-69",
+      "editors": [
+        "Curtis Dyreson",
+        "Michael R. Hansen",
+        "Luke Hunsberger"
+      ]
     },
-    "note": "Forthcoming"
+    "url": "http://ieeexplore.ieee.org/document/7774648/",
+    "url_label": "Link",
   },
   {
     "key": "jlamp2017",
@@ -294,5 +302,20 @@
       "doi": null,
     },
     "url" : null
+  },
+  {
+    "key": "ihmll2017",
+    "show": false,
+    "type": "paper",
+    "bibtype": "article",
+    "year": 2017,
+    "title": "The lexicography of Maltese",
+    "authors": [
+      "Michael Spagnol",
+      "John J. Camilleri"
+    ],
+    "publication": {
+      "journal": "International Handbook of Modern Lexis and Lexicography"
+    }
   }
 ]
