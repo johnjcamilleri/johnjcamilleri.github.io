@@ -4,6 +4,10 @@
     "instances": [
       {
         "period": "VT2016 LP4",
+        "url": null
+      },
+      {
+        "period": "VT2017 LP4",
         "url": "http://chalmersgu-ai-course.github.io/"
       }
     ]
