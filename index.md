@@ -16,11 +16,6 @@ When not at my computer, I like to train for and run obstacle races.
 I have also been known to write pretty well, give a decent speech, and geek over speciality coffee.
 
 For more about my research, see my [academic homepage](http://www.cse.chalmers.se/~cajohn).
-<!-- For more about my research, see my [academic page](/academic). -->
-I use [Facebook](http://www.facebook.com/johnjcamilleri) for genuine acquaintances
-and [Instagram](http://instagram.com/johnjcamilleri) for people I don't know personally.
 I share code on [GitHub](https://github.com/johnjcamilleri)
-<!-- and [BitBucket](https://bitbucket.org/johnjcamilleri/) -->
 and my professional life is summed up on [LinkedIn](http://mt.linkedin.com/in/johnjcamilleri).
-<!-- Don't bother visiting my [Twitter](http://twitter.com/johnjcamilleri) or [Google+](https://profiles.google.com/johnjcamilleri) pages. -->
-Feel free to email me at `john@` this domain.
+The best way of contacting me is to email me at `john@` this domain.
