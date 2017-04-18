@@ -55,8 +55,8 @@ which are related to my research.
 
 ## Other
 
-- Member of sub-committee on ICT of the [National Council for the Maltese Language](http://www.kunsilltalmalti.gov.mt/eng), 2013 – present.
-- Member of EACL 2017 student board
+- Member of sub-committee on ICT of the [National Council for the Maltese Language](http://www.kunsilltalmalti.gov.mt/eng), 2013 – 2016.
+- Member of [EACL](http://www.eacl.org/) student board, 2015 – present.
 
 ## Publications
 
