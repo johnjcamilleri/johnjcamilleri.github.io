@@ -91,18 +91,23 @@ ul.compact {
 
 ul.inline {
   li {
-    display:inline-block;
+    display: inline-block;
     margin: 0 $spacing-unit 0 0;
   }
 }
 
+.publications strong,
+.presentations strong {
+  font-weight: $weight-bold;
+  font-style: normal;
+}
 .publications em,
 .presentations em {
-  font-weight:$weight-bold;
-  font-style:normal;
+  font-weight: normal;
+  font-style: italic;
 }
 .strike, .done {
-  text-decoration:line-through;
+  text-decoration: line-through;
 }
 
 a {

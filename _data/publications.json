@@ -238,7 +238,7 @@
   {
     "type": "paper",
     "bibtype": "article",
-    "title": "Digitising the grammar and vocabulary of Maltese",
+    "title": "Digitizing the grammar and vocabulary of Maltese",
     "authors": [
       "John J. Camilleri"
     ],
@@ -248,12 +248,14 @@
       "booktitle": "Shifts and Patterns in Maltese",
       "series": "Studia Typologica",
       "volume": "19",
+      "pages": "359-386",
       "editors": [
         "Gilbert Puech",
         "Benjamin Saade"
       ],
       "isbn": "978-3-11-049637-6",
-      "publisher": "De Gruyter Mouton"
+      "publisher": "De Gruyter Mouton",
+      "address": "Berlin, Boston"
     },
     "url": "https://www.degruyter.com/view/product/476463",
     "url_label": "Link"
@@ -270,7 +272,50 @@
     ],
     "publication": {
       "booktitle": "23rd International Symposium on Temporal Representation and Reasoning (TIME 2016)",
+      "doi" : "10.1109/TIME.2016.14",
+      "pages": "60-69",
+      "editors": [
+        "Curtis Dyreson",
+        "Michael R. Hansen",
+        "Luke Hunsberger"
+      ]
     },
-    "note": "Forthcoming"
+    "url": "http://ieeexplore.ieee.org/document/7774648/",
+    "url_label": "Link",
+  },
+  {
+    "key": "jlamp2017",
+    "show": false,
+    "type": "paper",
+    "bibtype": "article",
+    "year": 2017,
+    "month": null,
+    "title": "Modelling and Analysis of Normative Documents",
+    "authors": [
+      "John J. Camilleri",
+      "Gerardo Schneider"
+    ],
+    "publication": {
+      "journal": "Journal of Logical and Algebraic Methods in Programming (JLAMP)",
+      "volume": null,
+      "pages": null,
+      "doi": null,
+    },
+    "url" : null
+  },
+  {
+    "key": "ihmll2017",
+    "show": false,
+    "type": "paper",
+    "bibtype": "article",
+    "year": 2017,
+    "title": "The lexicography of Maltese",
+    "authors": [
+      "Michael Spagnol",
+      "John J. Camilleri"
+    ],
+    "publication": {
+      "journal": "International Handbook of Modern Lexis and Lexicography"
+    }
   }
 ]

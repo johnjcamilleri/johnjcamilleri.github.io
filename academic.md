@@ -72,11 +72,11 @@ which are related to my research.
 {% endif %}
 
   <li>
-  <em>{{ item.title }}</em>,
+  <strong>{{ item.title }}</strong>,
   {{ item.authors | join: ', ' }}.
   {% if item.publication %}
     {% if item.publication.booktitle %}
-    In {{ item.publication.booktitle }}.
+    In <em>{{ item.publication.booktitle }}</em>.
     {% endif %}
     {% if item.publication.volume %}
     Vol. {{ item.publication.volume }},
@@ -104,7 +104,7 @@ which are related to my research.
   {% endif %}
 
   {% if item.publication.isbn %}
-    IBSN: {{ item.publication.isbn }}.
+    ISBN: {{ item.publication.isbn }}.
   {% endif %}
 
   {% if item.note %}
@@ -134,7 +134,7 @@ which are related to my research.
 {% endif %}
 
   <li>
-  <em>{{ item.title }}</em>:
+  <strong>{{ item.title }}</strong>:
   {{ item.description }}.
 
   {% if item.event %}{{ item.event }}, {% endif %}
