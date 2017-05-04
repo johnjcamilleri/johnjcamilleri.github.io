@@ -285,7 +285,6 @@
   },
   {
     "key": "jlamp2017",
-    "show": false,
     "type": "paper",
     "bibtype": "article",
     "year": 2017,
@@ -297,11 +296,12 @@
     ],
     "publication": {
       "journal": "Journal of Logical and Algebraic Methods in Programming (JLAMP)",
-      "volume": null,
+      "volume": 87,
       "pages": null,
       "doi": null,
     },
-    "url" : null
+    "url": "http://www.cse.chalmers.se/~cajohn/papers/jlamp-nwpt2015.pdf",
+    "url_label": "Preprint"
   },
   {
     "key": "ihmll2017",
