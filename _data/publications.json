@@ -298,10 +298,10 @@
       "journal": "Journal of Logical and Algebraic Methods in Programming (JLAMP)",
       "volume": 87,
       "pages": null,
-      "doi": null,
+      "doi": "10.1016/j.jlamp.2017.05.002",
     },
-    "url": "http://www.cse.chalmers.se/~cajohn/papers/jlamp-nwpt2015.pdf",
-    "url_label": "Preprint"
+    "url": "http://dx.doi.org/10.1016/j.jlamp.2017.05.002",
+    "url_label": "Link"
   },
   {
     "key": "ihmll2017",
