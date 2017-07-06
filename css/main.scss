@@ -54,6 +54,10 @@ img#name {
   width:70%;
 }
 
+h1 {
+  font-weight:600;
+  color: lighten($text-color, 10%);
+}
 h2 {
   font-weight:normal;
   color: lighten($text-color, 10%);
@@ -74,13 +78,15 @@ strong {
   text-align:center;
 }
 
-ul {
-  list-style: outside square;
+ul, ol {
   padding-left: $spacing-unit;
-
   li {
     margin-bottom: $spacing-unit/2;
   }
+}
+
+ul {
+  list-style: outside square;
 }
 
 ul.compact {
