@@ -22,7 +22,7 @@ Home page: <http://www.cse.chalmers.se/~cajohn/>
 
 <div style="clear:both"></div>
 
-## Preliminary title
+## Thesis title
 
 {: style="color:inherit"}
 ### _Contracts and Computation — Formal modelling and analysis for normative natural language_
@@ -34,6 +34,13 @@ Whether we're aware of it or not, our digital lives are governed by normative do
 We are interested in taking a computational approach to the analysis of normative texts — how they can be modelled formally, and what kinds of processing can be automatically performed on them. The ultimate goal is to produce end-user tools which can take a natural language document as input and allow a user to easily ask questions about the implications of that contract, getting a meaningful answer in natural language within a reasonable amount of time.
 
 This thesis includes six research papers by the author which describe the various components that a system such as this requires: entity recognition and modality extraction on natural language texts, controlled natural languages and visual diagrams as interfaces for modelling, logical formalisms which can be used for contract representation, and the kinds of evaluation and analysis that these methods allow. These pieces are then put together into a prototype tool for end-users, allowing for end-to-end analysis of normative texts in natural language.
+
+## Structure of the thesis
+
+The thesis consists of an introduction followed by six individual research papers.
+The papers have only been edited for formatting purposes, and in general appear in their original form.
+Thus, it is normal that there is some overlap in the background content of each paper.
+Note also that the papers are grouped by topic, and do not appear in chronological order.
 
 ## Outline of introduction
 
@@ -111,4 +118,5 @@ I also worked on applying to the tool to the two case studies described in the a
 
 ## Manuscript
 
-A current draft of the thesis manuscript can be obtained [here](http://www.cse.chalmers.se/~cajohn/phd-thesis-draft.pdf).
+The current draft of the thesis manuscript for reviewing purposes can be obtained [here](http://www.cse.chalmers.se/~cajohn/phd-thesis-draft.pdf).   
+As it is not yet final, it may contain some author notes marked <span style="color:red">[in red]</span>.
