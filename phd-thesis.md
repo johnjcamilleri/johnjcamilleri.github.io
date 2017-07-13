@@ -44,14 +44,13 @@ Note also that the papers are grouped by topic, and do not appear in chronologic
 
 ## Outline of introduction
 
-1. **Normative texts** — Describes the class of documents we are interested in.
-2. **Motivation** — Outlines the problem that users agree to contracts without reading or understanding them. Highlights the need for automatic analysis of normative documents, and discusses the different kinds of analysis tasks imaginable.
-3. **Approach** — An overview of our approach to contract analysis, introducing each technology and method used in the thesis.
+1. **Motivation** — Describes the class of documents we are interested in, and outlines the problem that users agree to contracts without reading or understanding them. Highlights the need for automatic analysis of normative documents, and discusses the different kinds of analysis tasks imaginable.
+2. **Approach** — An overview of our approach to contract analysis, introducing each technology and method used in the thesis.
     - **Modelling** — Controlled natural languages, graphical visualisation of contract models, and using a tabular interface in conjunction with automatic extraction for building models.
     - **Formalisms** — Contract Logic CL, Contract-Oriented Diagrams, and Simplified Contract Language SCL
     - **Analysis** — Syntactic querying, trace evaluation, random testing, deontic conflict analysis, and model checking via translation into timed automata.
-4. **Contributions** — A list of the publications included in the thesis, each with a summary and a description of my own contributions.
-5. **Related work** — Other works related to the overall goals of the thesis, which are not already mentioned in any of the related works sections of the papers included in the thesis.
+3. **Contributions** — A list of the publications included in the thesis, each with a summary and a description of my own contributions.
+4. **Related work** — Other works related to the overall goals of the thesis, which are not already mentioned in any of the related works sections of the papers included in the thesis.
 
 ## Papers included
 
