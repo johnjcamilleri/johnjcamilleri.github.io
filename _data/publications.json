@@ -18,7 +18,7 @@
       "address": "Borovets, Bulgaria"
     },
     "publication": {
-      "booktitle": "Proceedings of the Workshop on Adaptation of Language Resources and Technology to New Domains (RANLP 2009)",
+      "booktitle": "Workshop on Adaptation of Language Resources and Technology to New Domains (RANLP 2009)",
       "pages": "19-26",
       "publisher": "Association for Computational Linguistics"
     },
@@ -42,7 +42,7 @@
       "address": "Malta"
     },
     "publication": {
-      "booktitle": "Proceedings of the Language Resources (LRs) and Human Language Technologies (HLT) for Semitic Languages: Status, Updates, and Prospects",
+      "booktitle": "Language Resources (LRs) and Human Language Technologies (HLT) for Semitic Languages: Status, Updates, and Prospects",
       "pages": "57-61"
     }
   },
@@ -186,7 +186,7 @@
       "Gerardo Schneider"
     ],
     "publication": {
-      "booktitle": "Proceedings of the 4th International Workshop on Controlled Natural Language (CNL 2014)",
+      "booktitle": "4th International Workshop on Controlled Natural Language (CNL 2014)",
       "series": "Lecture Notes in Computer Science",
       "volume": "8625",
       "subseries": "Lecture Notes in Artificial Intelligence",
@@ -290,7 +290,7 @@
     "type": "paper",
     "bibtype": "article",
     "year": 2017,
-    "month": null,
+    "month": 10,
     "title": "Modelling and Analysis of Normative Documents",
     "authors": [
       "John J. Camilleri",
@@ -298,8 +298,8 @@
     ],
     "publication": {
       "journal": "Journal of Logical and Algebraic Methods in Programming (JLAMP)",
-      "volume": 87,
-      "pages": null,
+      "volume": 91,
+      "pages": "33–59",
       "doi": "10.1016/j.jlamp.2017.05.002",
     },
     "url": "http://dx.doi.org/10.1016/j.jlamp.2017.05.002",

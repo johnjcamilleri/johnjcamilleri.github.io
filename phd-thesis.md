@@ -1,5 +1,6 @@
 ---
 layout: plain
+title: PhD thesis — John J. Camilleri
 ---
 
 # PhD thesis overview
@@ -29,11 +30,12 @@ Home page: <http://www.cse.chalmers.se/~cajohn/>
 
 ## Abstract
 
-Whether we're aware of it or not, our digital lives are governed by normative documents of various kinds, including privacy policies, software licenses, service agreements, and other regulations. Documents like these essentially describe the permissions, obligations, and prohibitions of two or more parties, including the penalties which must be payed when someone breaks the rules. These documents are often lengthy and hard to understand, and many people often agree to these legally-binding contracts without even reading them.
+Whether we're aware of it or not, our digital lives are governed by contracts of various kinds, such as privacy policies, software licenses, service agreements, and other regulations. Normative documents like these essentially describe the permissions, obligations, and prohibitions of two or more parties, including the penalties which must be payed when someone breaks the rules. Such documents are often lengthy and hard to understand, and many people frequently agree to these legally-binding contracts without ever reading them.
 
-We are interested in taking a computational approach to the analysis of normative texts — how they can be modelled formally, and what kinds of processing can be automatically performed on them. The ultimate goal is to produce end-user tools which can take a natural language document as input and allow a user to easily ask questions about the implications of that contract, getting a meaningful answer in natural language within a reasonable amount of time.
+Our goal is to create tools which can take a natural language document as input and provide the possibility for an end user to easily ask questions about its implications, getting back meaningful answers in natural language within a reasonable amount of time. We do this by taking a computational approach to the analysis of normative texts, investigating how they can be formally modelled and what kinds of automatic processing these models enable.
 
-This thesis includes six research papers by the author which describe the various components that a system such as this requires: entity recognition and modality extraction on natural language texts, controlled natural languages and visual diagrams as interfaces for modelling, logical formalisms which can be used for contract representation, and the kinds of evaluation and analysis that these methods allow. These pieces are then put together into a prototype tool for end-users, allowing for end-to-end analysis of normative texts in natural language.
+This thesis includes six research papers by the author which cover the various aspects of this approach: entity recognition and modality extraction from natural language texts, controlled natural languages and visual diagrams as interfaces for modelling, logical formalisms which can be used for contract representation, and analysis via syntactic filtering, trace evaluation, random testing, and model checking. These components are then combined into a prototype tool for end users, allowing for end-to-end analysis of normative texts in natural language.
+
 
 ## Structure of the thesis
 
@@ -55,32 +57,46 @@ Note also that the papers are grouped by topic, and do not appear in chronologic
 ## Papers included
 
 {: type="I"}
-1. **Modelling and Analysis of Normative Documents**, John J. Camilleri, Gerardo Schneider. Vol. 87, _Journal of Logical and Algebraic Methods in Programming_. 2017. DOI: 10.1016/j.jlamp.2017.05.002.
-[[Link](http://dx.doi.org/10.1016/j.jlamp.2017.05.002)]
+1. **Modelling and Analysis of Normative Documents**,
+John J. Camilleri, Gerardo Schneider.
+Vol. 91, _Journal of Logical and Algebraic Methods in Programming_. 2017.
+DOI: [10.1016/j.jlamp.2017.05.002](http://dx.doi.org/10.1016/j.jlamp.2017.05.002)
 [[PDF](http://academic.johnjcamilleri.com/papers/jlamp2017.pdf)]
 
-2. **A Domain-Specific Language for Normative Texts with Timing Constraints**, Runa Gulliksson, John J. Camilleri. In _23rd International Symposium on Temporal Representation and Reasoning (TIME 2016)_. DOI: 10.1109/TIME.2016.14. 2016.
-[[Link](http://dx.doi.org/10.1109/TIME.2016.14)]
+2. **A Domain-Specific Language for Normative Texts with Timing Constraints**,
+Runa Gulliksson, John J. Camilleri.
+In _23rd International Symposium on Temporal Representation and Reasoning (TIME 2016)_. 2016.
+DOI: [10.1109/TIME.2016.14](http://dx.doi.org/10.1109/TIME.2016.14)
 [[PDF](http://academic.johnjcamilleri.com/papers/time2016.pdf)]
 
-3. **A Framework for Conflict Analysis of Normative Texts Written in Controlled Natural Language**, Krasimir Angelov, John J. Camilleri, Gerardo Schneider. Vol. 82, _Journal of Logic and Algebraic Programming_. DOI: 10.1016/j.jlap.2013.03.002. 2013.
-[[Link](http://dx.doi.org/10.1016/j.jlap.2013.03.002)]
+3. **A Framework for Conflict Analysis of Normative Texts Written in Controlled Natural Language**,
+Krasimir Angelov, John J. Camilleri, Gerardo Schneider.
+Vol. 82, _Journal of Logic and Algebraic Programming_. 2013.
+DOI: [10.1016/j.jlap.2013.03.002](http://dx.doi.org/10.1016/j.jlap.2013.03.002)
 [[PDF](http://academic.johnjcamilleri.com/papers/jlap2013.pdf)]
 
-4. **A CNL for Contract-Oriented Diagrams**, John J. Camilleri, Gabriele Paganelli, Gerardo Schneider. In _Proceedings of the 4th International Workshop on Controlled Natural Language (CNL 2014)_. Vol. 8625, Lecture Notes in Computer Science. DOI: 10.1007/978-3-319-10223-8_13. 2014.
-[[Link](http://dx.doi.org/10.1007/978-3-319-10223-8_13)]
+4. **A CNL for Contract-Oriented Diagrams**,
+John J. Camilleri, Gabriele Paganelli, Gerardo Schneider.
+In _4th International Workshop on Controlled Natural Language (CNL 2014)_.
+Vol. 8625, Lecture Notes in Computer Science. 2014.
+DOI: [10.1007/978-3-319-10223-8_13](http://dx.doi.org/10.1007/978-3-319-10223-8_13)
 [[PDF](http://academic.johnjcamilleri.com/papers/cnl2014.pdf)]
 
-5. **Extracting Formal Models from Normative Texts**, John J. Camilleri, Normunds Grūzītis, Gerardo Schneider. In _21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016)_. Vol. 9612, Lecture Notes in Computer Science. DOI: 10.1007/978-3-319-41754-7_40. 2016.
-[[Link](http://dx.doi.org/10.1007/978-3-319-41754-7_40)]
+5. **Extracting Formal Models from Normative Texts**,
+John J. Camilleri, Normunds Grūzītis, Gerardo Schneider.
+In _21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016)_.
+Vol. 9612, Lecture Notes in Computer Science. 2016.
+DOI: [10.1007/978-3-319-41754-7_40](http://dx.doi.org/10.1007/978-3-319-41754-7_40)
 [[PDF](http://academic.johnjcamilleri.com/papers/nldb2016.pdf)]
 [[PDF Extended](http://academic.johnjcamilleri.com/papers/nldb2016extended.pdf)]
 
-6. **A Web-Based Tool for Analysing Normative Documents in English**, John J. Camilleri, Mohammad Reza Haghshenas, Gerardo Schneider. (Under submission). 2017.
+6. **A Web-Based Tool for Analysing Normative Documents in English**,
+John J. Camilleri, Mohammad Reza Haghshenas, Gerardo Schneider.
+2017.
+arXiv: [1707.03997 [cs.CL]](https://arxiv.org/abs/1707.03997)
 [[PDF](http://academic.johnjcamilleri.com/papers/ifm2017.pdf)]
 
 ## Contributions of each paper
-
 
 {: type="I"}
 1. Focuses on the language of _Contract-Oriented (C-O) diagrams_ and the kinds of analysis possible on these models.
