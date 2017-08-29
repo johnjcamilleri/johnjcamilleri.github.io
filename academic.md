@@ -121,6 +121,7 @@ which are related to my research.
 {% endfor %}
 </ul>
 
+<!--
 ## Presentations
 
 {% assign year = 0 %}
@@ -150,7 +151,7 @@ which are related to my research.
   </li>
 {% endfor %}
 </ul>
-
+-->
 
 ## Researcher profiles
 

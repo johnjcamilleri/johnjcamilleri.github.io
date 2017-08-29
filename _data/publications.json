@@ -283,7 +283,7 @@
       ]
     },
     "url": "http://ieeexplore.ieee.org/document/7774648/",
-    "url_label": "Link",
+    "url_label": "Link"
   },
   {
     "key": "jlamp2017",
@@ -303,6 +303,33 @@
       "doi": "10.1016/j.jlamp.2017.05.002",
     },
     "url": "http://authors.elsevier.com/a/1VRL68MrKMFvrM",
+    "url_label": "Link"
+  },
+  {
+    "key": "sefm2017",
+    "type": "paper",
+    "bibtype": "incollection",
+    "year": 2017,
+    "month": 8,
+    "title": "Participatory Verification of Railway Infrastructure by Representing Regulations in RailCNL",
+    "authors": [
+      "Bjørnar Luteberget",
+      "John J. Camilleri",
+      "Christian Johansen",
+      "Gerardo Schneider"
+    ],
+    "publication": {
+      "booktitle": "15th International Conference on Software Engineering and Formal Methods (SEFM 2017)",
+      "series": "Lecture Notes in Computer Science",
+      "volume": "10469",
+      "doi" : "10.1007/978-3-319-66197-1_6",
+      "pages": "87-103",
+      "editors": [
+        "Alessandro Cimatti",
+        "Marjan Sirjani"
+      ]
+    },
+    "url": "https://link.springer.com/chapter/10.1007/978-3-319-66197-1_6",
     "url_label": "Link"
   },
   {
