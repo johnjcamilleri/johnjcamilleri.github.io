@@ -148,7 +148,7 @@ and the work on the case study.
 implementation as an embedded DSL in Haskell,
 the overall method of the translation into NTA,
 and all work on random testing using QuickCheck.
-3. The implemention of the _AnaCon_ tool,
+3. The implementation of the _AnaCon_ tool,
 consultation on the design of the CNL,
 and all work related to the case studies.
 4. The complete design of the CNL and its implementation in GF,
