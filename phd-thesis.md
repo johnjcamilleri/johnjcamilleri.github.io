@@ -96,42 +96,71 @@ John J. Camilleri, Mohammad Reza Haghshenas, Gerardo Schneider.
 arXiv: [1707.03997 [cs.CL]](https://arxiv.org/abs/1707.03997)
 [[PDF](http://academic.johnjcamilleri.com/papers/ifm2017.pdf)]
 
-## Contributions of each paper
+## Summary of each paper
 
 {: type="I"}
-1. Focuses on the language of _Contract-Oriented (C-O) diagrams_ and the kinds of analysis possible on these models.
-The paper covers some modifications to the original formalism, the definition of a novel trace semantics,
-and a complete working implementation of the translation from _C-O Diagrams_ into Network of Timed Automata (NTA).
-A small case study is also included, which demonstrates our methods for syntactic and semantic analysis of contract models.
-2. Introduces the _Simplified Contract Language_ SCL,
-a domain-specific language for normative modelling which is inspired by _C-O Diagrams_ but with a focus on compositionality.
+1. This paper focuses on _C-O Diagrams_ and the kinds of analysis possible on these models.
+Its novel contributions include
+extensions to the original formalism,
+the definition of a trace semantics,
+and an updated translation function from _C-O Diagrams_ into NTA, complete with a fully-working implementation in Haskell.
+A small case study from a real-world contract is also included, demonstrating our methods for syntactic and semantic analysis of contract models.
+2. This paper introduces the _Simplified Contract Language (SCL)_,
+a domain-specific language for modelling contracts,
+inspired by _C-O Diagrams_ but with a strong focus on compositionality.
 The language has a clearly defined operational semantics based on discrete time steps,
 and a highly modular translation to NTA,
-both of which were tested extensively using random test cases.
-3. Introduces the idea of using a CNL as an interface to a formal contract language.
-By designing and implementing a CNL for the contract logic _CL_, and joining this together with the accompanying conflict analysis tool CLAN,
-we produce a basic tool for writing contracts in CNL and checking them for conflicts.
-4. Presents a CNL for contracts modelled using the more expressive _C-O Diagram_ formalism,
+both of which are tested extensively using random test cases.
+The paper includes a case study showing how _SCL_ can be used for the modelling, testing, simulation and verification of normative texts.
+3. This paper presents a CNL for the formal contract language _CL_, implemented as a GF grammar,
+together with a basic tool for joining this CNL together with the conflict analysis tool CLAN.
+The novel contribution of this work is thus a simple framework for writing contracts in CNL and checking them automatically for conflicts, where any potential counter-examples are rendered back into CNL using the same grammar.
+The paper provides two case studies, demonstrating the iterative contract-modelling process using feedback from the conflict analyser.
+4. This paper presents another GF-based CNL for contracts, this time for the more expressive _C-O Diagram_ formalism,
 which includes the ability to express timing constraints on clauses and comes with its own visual representation.
-Apart from the design of the CNL itself, the paper also covers working implementations of a CNL editor,
-a visual editor for working with the diagrams, and a common interchange format between them.
-5. Investigates the use of NLP methods for parsing normative texts and building partial models in the _C-O Diagram_ formalism.
-The idea behind this tool is to provide a first-pass processing phase which could automatically extract some information from a contract and reduce some of manual work required in modelling.
-6. Presents a web-based tool which ties together components developed in previous papers (I, IV & V) into a single interface.
-This prototype tool is aimed at end-users, providing end-to-end analysis of normative texts in natural language.
+Apart from the CNL itself, the contributions of this paper also include
+a web-based CNL editor with auto-completion and other helpful features,
+another web-based editor for visually manipulating _C-O Diagrams_,
+and a common interchange format between these representations.
+5. This paper addresses the front-end task of contract modelling,
+using NLP methods to parse normative texts in English and build partial models of them in the _C-O Diagram_ formalism.
+The idea is to provide a first-pass processing phase which could automatically extract some information from a contract and reduce some of manual work required by modelling.
+The main contribution is a tool which, using the Stanford parser,
+extracts information from dependency trees using custom rules and heuristics,
+and outputs it in a custom tabular format for post-editing, before conversion into a final model.
+The paper includes a basic evaluation of this method, in terms of precision and recall over a small set of test sentences.
+6. This paper ties together the tools developed in previous papers (I, IV, V)
+into a single a web application, with the aim of bringing end-to-end analysis of normative texts in English to the end user.
+This is achieved by wrapping each individual tool as a web service with a corresponding API,
+and building a client-side web application which consumes these services.
+The novel contribution of this work is thus the web application itself, covering both the user interface and the supporting server architecture.
+The paper also includes a case study demonstrating the contract analysis workflow,
+starting from natural language and going all the way to verification of semantic queries.
 
 ## Personal contributions to each paper
 
 {: type="I"}
-1. The changes to the formalism, the definition of the trace semantics, the entire implementation of the translation back-end, and the work on the case study.
-2. The design of the language and its semantics, as well as the overall approach towards the translation into NTA.
-3. Implementing the AnaCon tool, which uses a GF grammar to parse CNL contracts into expressions in CL, passes these expressions into the CLAN tool, and renders any potential counter-examples back into CNL using the same grammar.
-I also worked on applying to the tool to the two case studies described in the article.
-4. The complete design of the CNL, along with the web-based CNL editing tool and back-end conversion tools.
-5. Consulting on the system's heuristic rules, the design of the experiments, and carrying out the evaluation.
-6. The design of the workflow and system architecture, as well as the implementation of the back-end server.
+1. The changes to the formalism,
+the definition of the trace semantics,
+the entire implementation of the translation back-end,
+and the work on the case study.
+2. The design of the language and its semantics,
+implementation as an embedded DSL in Haskell,
+the overall method of the translation into NTA,
+and all work on random testing using QuickCheck.
+3. The implemention of the _AnaCon_ tool,
+consultation on the design of the CNL,
+and all work related to the case studies.
+4. The complete design of the CNL and its implementation in GF,
+building of the web-based CNL editing tool using standard web technologies,
+and all back-end conversion tools in Haskell.
+5. Consultation on the system's heuristic rules,
+the design of the experiments,
+and carrying out the evaluation.
+6. The design of the user workflow and overall system architecture,
+as well as the implementation of the back-end server in Haskell.
+
 
 ## Manuscript
 
 The current draft of the thesis manuscript for reviewing purposes can be obtained [here](http://www.cse.chalmers.se/~cajohn/phd-thesis-draft.pdf).   
-As it is not yet final, it may contain some author notes marked <span style="color:red">[in red]</span>.
