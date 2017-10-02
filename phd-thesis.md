@@ -30,11 +30,31 @@ Home page: <http://www.cse.chalmers.se/~cajohn/>
 
 ## Abstract
 
-Whether we're aware of it or not, our digital lives are governed by contracts of various kinds, such as privacy policies, software licenses, service agreements, and other regulations. Normative documents like these essentially describe the permissions, obligations, and prohibitions of two or more parties, including the penalties which must be payed when someone breaks the rules. Such documents are often lengthy and hard to understand, and many people frequently agree to these legally-binding contracts without ever reading them.
+Whether we are aware of it or not,
+our digital lives are governed by contracts of various kinds, such as
+privacy policies,
+software licenses,
+service agreements,
+and regulations.
+At their essence, normative documents like these dictate the permissions, obligations, and prohibitions
+of two or more parties entering into an agreement,
+including the penalties which must be paid when someone breaks the rules.
+Such documents are often lengthy and hard to understand,
+and most people tend to agree to these legally binding contracts without ever reading them.
 
-Our goal is to create tools which can take a natural language document as input and provide the possibility for an end user to easily ask questions about its implications, getting back meaningful answers in natural language within a reasonable amount of time. We do this by taking a computational approach to the analysis of normative texts, investigating how they can be formally modelled and what kinds of automatic processing these models enable.
+Our goal is to create tools which can take a natural language document as input
+and allow an end user to easily ask questions about its implications,
+getting back meaningful answers in natural language within a reasonable amount of time.
+We do this by bringing formal methods to the analysis of normative texts,
+investigating how they can be effectively modelled and the kinds of automatic processing that these models enable.
 
-This thesis includes six research papers by the author which cover the various aspects of this approach: entity recognition and modality extraction from natural language texts, controlled natural languages and visual diagrams as interfaces for modelling, logical formalisms which can be used for contract representation, and analysis via syntactic filtering, trace evaluation, random testing, and model checking. These components are then combined into a prototype tool for end users, allowing for end-to-end analysis of normative texts in natural language.
+This thesis includes six research papers by the author which cover the various aspects of this approach:
+entity recognition and modality extraction from natural language,
+controlled natural languages and visual diagrams as interfaces for modelling,
+logical formalisms which can be used for contract representation,
+and analysis via syntactic filtering, trace evaluation, random testing, and model checking.
+These components are then combined into a prototype tool for end users, allowing for end-to-end analysis of normative texts in natural language.
+
 
 
 ## Structure of the thesis
@@ -152,7 +172,7 @@ and all work on random testing using QuickCheck.
 consultation on the design of the CNL,
 and all work related to the case studies.
 4. The complete design of the CNL and its implementation in GF,
-building of the web-based CNL editing tool using standard web technologies,
+the building of the web-based CNL editing tool using standard web technologies,
 and all back-end conversion tools in Haskell.
 5. Consultation on the system's heuristic rules,
 the design of the experiments,
@@ -163,4 +183,4 @@ as well as the implementation of the back-end server in Haskell.
 
 ## Manuscript
 
-The current draft of the thesis manuscript for reviewing purposes can be obtained [here](http://www.cse.chalmers.se/~cajohn/phd-thesis-draft.pdf).   
+The thesis manuscript can be obtained [here](http://www.cse.chalmers.se/~cajohn/phd-thesis.pdf).
