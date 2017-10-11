@@ -181,6 +181,6 @@ and carrying out the evaluation.
 as well as the implementation of the back-end server in Haskell.
 
 
-## Manuscript
+## Publication information
 
-The thesis manuscript can be obtained [here](http://www.cse.chalmers.se/~cajohn/phd-thesis.pdf).
+The thesis is officially published online in the [Gothenburg University Publications Electronic Archive (GUPEA)](http://hdl.handle.net/2077/53815).

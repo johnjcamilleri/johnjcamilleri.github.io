@@ -209,7 +209,8 @@
     "address": "Gothenburg, Sweden",
     "school": "Chalmers University of Technology and University of Gothenburg",
     "note": "Licentiate Thesis",
-    "url": "https://gup.ub.gu.se/publication/222958-analysing-normative-contracts"
+    "url": "http://hdl.handle.net/2077/40725",
+    "url_label": "Link"
   },
   {
     "key": "nldb2016",
@@ -330,6 +331,22 @@
       ]
     },
     "url": "https://link.springer.com/chapter/10.1007/978-3-319-66197-1_6",
+    "url_label": "Link"
+  },
+  {
+    "key": "phd2017",
+    "type": "thesis",
+    "bibtype": "phdthesis",
+    "year": 2017,
+    "month": 10,
+    "title": "Contracts and Computation — Formal modelling and analysis for normative natural language",
+    "authors": [
+      "John J. Camilleri"
+    ],
+    "address": "Gothenburg, Sweden",
+    "school": "Chalmers University of Technology and University of Gothenburg",
+    "note": "PhD Thesis",
+    "url": "https://gupea.ub.gu.se/handle/2077/53815",
     "url_label": "Link"
   },
   {
