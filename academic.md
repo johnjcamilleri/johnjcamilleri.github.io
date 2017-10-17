@@ -50,9 +50,6 @@ I have been/am/will be involved in the following courses as a teaching assistant
 - [Runa Gulliksson](http://publications.lib.chalmers.se/records/fulltext/243893/243893.pdf) (Computer Science, 2016)
 - Mohammad Reza Haghshenas (Software Engineering, 2016)
 
-Here are some [master's thesis project proposals](https://masterthesis.cms.chalmers.se/supervisor/john-j-camilleri)
-which are related to my research.
-
 ## Other
 
 - Member of sub-committee on ICT of the [National Council for the Maltese Language](http://www.kunsilltalmalti.gov.mt/eng), 2013 – 2016.
