@@ -1,6 +1,0 @@
-# Site settings for deploying to Chalmers (overrides _config.yml)
-title: John J. Camilleri
-email: john.j.camilleri@cse.gu.se
-baseurl: "/~cajohn" # the subpath of your site, e.g. /blog
-url: "http://www.cse.chalmers.se" # the base hostname & protocol for your site
-ga_code: UA-11590274-7

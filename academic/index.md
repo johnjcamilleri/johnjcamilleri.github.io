@@ -5,30 +5,30 @@ layout: default
 {: .updated}
 Updated {{ site.time | date: "%d %B %Y" }}
 
-I'm a Ph.D. student at the department of
+I'm a recent Ph.D. graduate from the department of
 [Computer Science and Engineering](http://www.chalmers.se/en/departments/cse/) at
 [Chalmers University of Technology](http://www.chalmers.se/en/) and the
 [University of Gothenburg](http://www.gu.se/english/), Sweden.
-I work in the areas of language technology and formal methods, where I'm funded by the
+I worked in the areas of language technology and formal methods, where I was funded by the
 [REMU project](http://remu.grammaticalframework.org/) to research the formal analysis of normative contracts written in natural language.
 
 I also do some computational linguistic work for the Maltese language,
 where I help build and maintain a [digital lexicon for Maltese](http://mlrs.research.um.edu.mt/resources/gabra/) called _Ġabra_.
 
-You can contact me at
+<!-- You can contact me at
 <code>john.j.camilleri<img src="{{ site.baseurl }}/images/ghost.png" style="height:18px; vertical-align:sub; -webkit-filter:grayscale(100%); filter:grayscale(100%);" alt="@"/>cse.gu.se</code>
-or find me in room 5446 of the EDIT building on Chalmers’ Johanneberg campus in Gothenburg, Sweden.
+or find me in room 5446 of the EDIT building on Chalmers’ Johanneberg campus in Gothenburg, Sweden. -->
 
 ## Brief background
 
-- **2013 – present**: Ph.D. student in Computer Science at Chalmers / University of Gothenburg, under the supervision of [Gerardo Schneider](http://www.cse.chalmers.se/~gersch/) and [Koen Claessen](http://www.cse.chalmers.se/~koen/).
+- **2013 – 2017**: Ph.D. student in Computer Science at Chalmers / University of Gothenburg, under the supervision of [Gerardo Schneider](http://www.cse.chalmers.se/~gersch/) and [Koen Claessen](http://www.cse.chalmers.se/~koen/).
 - **2012 – 2013**: M.Sc. student at Chalmers University of Technology in the program [Computer Science: Algorithms, Languages and Logic](http://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-Science-algorithms-languages-and-logic.aspx). [Aarne Ranta](http://www.cse.chalmers.se/~aarne/) was my thesis supervisor.
 - **2011 – 2013**: Research assistant at Chalmers / University of Gothenburg in the [MOLTO project](http://www.molto-project.eu/).
 - **2006 – 2010**: B.Sc. IT (Hons) in Computer Science and Artificial Intelligence at the [University of Malta](http://www.um.edu.mt/ict/).
 
 ## Teaching
 
-I have been/am/will be involved in the following courses as a teaching assistant:
+I have been involved in the following courses as a teaching assistant:
 
 {% for item in site.data.teaching %}
 - {{ item.course
