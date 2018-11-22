@@ -111,7 +111,7 @@ I have been involved in the following courses as a teaching assistant:
   <!-- ({{ item.year }}). -->
 
   {% if item.url %}[<a href="{{ item.url }}">{% if item.url_label %}{{item.url_label}}{% else %}PDF{% endif %}</a>]
-  {% elsif item.key %}[<a href="http://academic.johnjcamilleri.com/papers/{{ item.key }}.pdf">PDF</a>]
+  {% elsif item.key %}[<a href="publications/{{ item.key }}.pdf">PDF</a>]
   {% endif %}
 
   </li>
@@ -143,7 +143,7 @@ I have been involved in the following courses as a teaching assistant:
   {% if item.url %}
   [<a href="{{ item.url }}">Slides</a>]
   {% elsif item.filename %}
-  [<a href="http://academic.johnjcamilleri.com/presentations/{{ item.filename }}">Slides</a>]
+  [<a href="presentations/{{ item.filename }}">Slides</a>]
   {% endif %}
   </li>
 {% endfor %}
