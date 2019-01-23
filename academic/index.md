@@ -15,10 +15,6 @@ I worked in the areas of language technology and formal methods, where I was fun
 I also do some computational linguistic work for the Maltese language,
 where I help build and maintain a [digital lexicon for Maltese](http://mlrs.research.um.edu.mt/resources/gabra/) called _Ġabra_.
 
-<!-- You can contact me at
-<code>john.j.camilleri<img src="{{ site.baseurl }}/images/ghost.png" style="height:18px; vertical-align:sub; -webkit-filter:grayscale(100%); filter:grayscale(100%);" alt="@"/>cse.gu.se</code>
-or find me in room 5446 of the EDIT building on Chalmers’ Johanneberg campus in Gothenburg, Sweden. -->
-
 ## Brief background
 
 - **2013 – 2017**: Ph.D. student in Computer Science at Chalmers / University of Gothenburg, under the supervision of [Gerardo Schneider](http://www.cse.chalmers.se/~gersch/) and [Koen Claessen](http://www.cse.chalmers.se/~koen/).
