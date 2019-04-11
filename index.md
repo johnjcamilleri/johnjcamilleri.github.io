@@ -6,7 +6,7 @@ layout: default
 Updated {{ site.time | date: "%d %B %Y" }}
 
 I'm a Ph.D. graduate in Computer Science from Chalmers University of Technology and the University of Gothenburg, Sweden.
-My primary interest is in language technology, and my [thesis](http://hdl.handle.net/2077/53815) was about the automated analyis of contracts using formal methods.
+My primary interest is in language technology, and my [thesis](http://hdl.handle.net/2077/53815) was about the automated analysis of contracts using formal methods.
 I now work at [Digital Grammars](http://www.digitalgrammars.com), where I build multilingual systems and tools for grammar engineering and managing linguistic resources.
 I also have a special interest in Maltese and started an [online lexicon](http://mlrs.research.um.edu.mt/resources/gabra/) for it.
 
