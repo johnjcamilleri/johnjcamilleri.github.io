@@ -1,9 +1,7 @@
 # Site settings
 title: John J. Camilleri
-email: john@johnjcamilleri.com
-description: I'm a Ph.D. student in Computer Science at Chalmers University of Technology and the University of Gothenburg, Sweden.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://johnjcamilleri.com" # the base hostname & protocol for your site
+url: "https://johnjcamilleri.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
