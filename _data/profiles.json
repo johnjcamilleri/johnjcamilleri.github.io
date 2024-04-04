@@ -1,15 +1,7 @@
 [
   {
     "name": "University of Gothenburg Publications (GUP)",
-    "url": "http://gup.ub.gu.se/lists/publications/people/html/index.xsql?ids=188090"
-  },
-  {
-    "name": "Chalmers personnel page (Swedish)",
-    "url": "http://www.chalmers.se/sv/personal/Sidor/johncam.aspx"
-  },
-  {
-    "name": "Chalmers personnel page (English)",
-    "url": "http://www.chalmers.se/en/staff/Pages/john-j-camilleri.aspx"
+    "url": "https://gup.ub.gu.se/publications/list?person_id=188090"
   },
   {
     "name": "Google Scholar",
@@ -38,9 +30,5 @@
   {
     "name": "ResearcherID",
     "url": "http://www.researcherid.com/rid/M-7445-2013"
-  },
-  {
-    "name": "Mendeley",
-    "url": "http://www.mendeley.com/profiles/john-j-camilleri/"
   }
 ]
