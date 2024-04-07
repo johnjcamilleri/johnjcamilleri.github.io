@@ -364,5 +364,30 @@
     "publication": {
       "journal": "International Handbook of Modern Lexis and Lexicography"
     }
+  },
+  {
+    "key": "sacsvt2018",
+    "type": "paper",
+    "bibtype": "article",
+    "year": 2018,
+    "title": "A web-based tool for analysing normative documents in English",
+    "authors": [
+      "John J. Camilleri",
+      "Mohammad Reza Haghshenas",
+      "Gerardo Schneider"
+    ],
+    "event": {
+      "name": "33rd Annual ACM Symposium on Applied Computing",
+      "type": "conference",
+      "code": "SAC 2018",
+      "address": "Pau, France"
+    },
+    "publication": {
+      "booktitle": "Proceedings of the 33rd Annual ACM Symposium on Applied Computing (SAC 2018)",
+      "doi" : "10.1145/3167132.3167331",
+      "pages": "1865–1872"
+    },
+    "url": "https://doi.org/10.1145/3167132.3167331",
+    "url_label": "Link"
   }
 ]
