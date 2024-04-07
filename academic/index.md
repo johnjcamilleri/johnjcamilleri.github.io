@@ -48,8 +48,8 @@ I have been involved in the following courses as a teaching assistant:
 
 ## Other
 
-- Member of sub-committee on ICT of the [National Council for the Maltese Language](http://www.kunsilltalmalti.gov.mt/eng), 2013 – 2016.
-- Member of [EACL](http://www.eacl.org/) student board, 2015 – present.
+- Member of sub-committee on ICT of the [National Council for the Maltese Language](http://www.kunsilltalmalti.gov.mt/eng), 2013 – 2016, 2019 – 2021.
+- Member of [EACL](http://www.eacl.org/) student board, 2015 – 2017.
 
 ## Publications
 
