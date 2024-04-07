@@ -5,7 +5,7 @@ layout: default
 {: .updated}
 Updated {{ site.time | date: "%d %B %Y" }}
 
-I'm a recent Ph.D. graduate from the department of
+I'm a Ph.D. graduate from the department of
 [Computer Science and Engineering](http://www.chalmers.se/en/departments/cse/) at
 [Chalmers University of Technology](http://www.chalmers.se/en/) and the
 [University of Gothenburg](http://www.gu.se/english/), Sweden.
